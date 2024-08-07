@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Ficha PL PHP 01</title>
+  <link rel="stylesheet" href="/index.css">
 </head>
 <body>
   Este é o documento index.php e deve ficar inalterado durante a resolução da ficha.

@@ -1,0 +1,42 @@
+
+ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: start;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+li {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  outline: 1px solid red;
+  background-color: #cfbebe;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right:1rem;
+  margin-bottom:1rem;
+}
+
+li:last-child {
+  outline-width: 5px;
+}
+li:hover {
+  filter: brightness(1.5);
+}
+
+a,a:visited {
+  color: black;
+  font-size:120%;
+  text-decoration: none;
+  font-family: system-ui;
+}
+
+a:hover{
+  text-decoration: underline;
+}

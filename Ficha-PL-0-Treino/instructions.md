@@ -8,3 +8,6 @@ Deverá realizar as seguintes acções:
 3. Convidar o docente para o projecto: Invite -> email 
 4. Esperar que o professor deixe algum comentário no exercício
 5. Ler os comentários (abrir o painel de comentários no canto inferior direito). Confirmar a que ficheiro se refere o comentário e a que linha de código.
+
+
+[Voltar](/.tutorial/1.begin.md)
