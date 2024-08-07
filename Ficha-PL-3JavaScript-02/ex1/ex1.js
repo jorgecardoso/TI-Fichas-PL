@@ -1,0 +1,1 @@
+document.querySelector("ol li:first-child").innerText = "Quatro";

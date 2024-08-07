@@ -1,0 +1,9 @@
+Ex1
+
+Ex2
+ - Que posicionamento é mais adequado neste caso?
+ - Para que serve a propriedade “display: inline-block”?
+
+Ex3
+  - Que posicionamento é mais adequado neste caso?
+  - Porque é que a `<div>` “container” precisa da propriedade `position: relative`?

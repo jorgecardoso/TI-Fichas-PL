@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  
+}
+
+.item {
+  background-color: salmon;
+  height: 100px;
+  width: 100px; 
+}
+
+.item-center { 
+ 
+}

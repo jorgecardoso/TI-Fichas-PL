@@ -1,0 +1,26 @@
+Ex1
+1. Que elementos deve usar para o título do documento? 
+
+2. E para cada uma das secções e sub-secções? 
+
+3. E os parágrafos dentro das secções?
+
+4. Qual o título da página no tab do browser? 
+
+5. Como pode mudar o título que surge no tab/janela do browser? 
+
+
+Ex2
+
+1. 1. Qual a diferença entre os elementos <i> e <em>?
+
+
+Ex 3
+
+1. Faz sentido a utilização destes elementos no contexto deste exercício?
+
+
+Ex 5
+
+1. A lista da Figura 5.1 é uma lista ordenada (`<ol>`), ou uma lista não ordenada (`<ul>`)?
+

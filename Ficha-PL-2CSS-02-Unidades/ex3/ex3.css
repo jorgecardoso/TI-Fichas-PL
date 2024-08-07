@@ -1,0 +1,12 @@
+header {
+  border: 5px solid red;
+  height: 300px;
+}
+
+div {
+  display: inline-block;
+  background-color: lightblue;
+  
+  /* adicione a seguir declarações de forma a que as duas <div> ocupem metade da largura do <header> e metade da altura */
+
+}
