@@ -13,5 +13,14 @@
       </li>
     </ol>
 
+    <ol>
+      <li>
+        <a href="/Ficha-PL-1HTML-01-Elementos-basicos">Ficha HTML 1 - Elementos básicos</a>
+      </li>
+      <li>
+        <a href="/Ficha-PL-1HTML-02-Hierarquia-de-elementos">Ficha HTML 2 - Hierarquia de elementos</a>
+      </li>
+    </ol>
+
   </body>
 </html>
