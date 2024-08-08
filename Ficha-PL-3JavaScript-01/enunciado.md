@@ -1,18 +1,24 @@
-# Intro
+[Voltar](/.tutorial/1.begin.md)
+# Ficha PL JavaScript
+
+## Intro
+
+**Estruture a suas soluções em pastas para cada exercício. Para cada exercício deve criar uma pasta (`ex1`, `ex2`, `ex3`, etc.) e colocar dentro dessa pasta um ficheiro html (`ex1.html`, `ex2.html`, `ex3.html`, etc.) e outros ficheiros necessários (por exemplo, CSS).**
+
+__Use o preview em novo tab para verificar o seu trabalho. Não use o preview embebido no editor uma vez que este tem bugs.__
+
+--- 
 
 
-__Estruture a suas soluções em pastas para cada exercício.__
 
-__Use o preview em novo tab para verificar o seu trabalho. Não use o preview embebido no editor.__
-
---------
-
-
-# Ex 1
+## Ex 1
 
 Observe o código HTML do ficheiro `ex1.html` na pasta `ex1`.
-Adicione um script JavaScript que
+- Adicione um script JavaScript:
+  - Crie um ficheiro `ex1.js` dentro da pasta `ex1`
+  - Faça a "ligação" entre o HTML e o JavaScript incluindo o elemento `<script src="ex1.js"></script>` antes do fim do `<body>`.
 
+No script que acabou de adicionar, escreva código que:
 1. Modifique o conteúdo da div#one para: "This is a div".
 2. Modifique o conteúdo da div#two para: "This is a `<div>`".
 
@@ -20,7 +26,7 @@ Adicione um script JavaScript que
 **Nota: o script não precisa de ser interactivo. As modificações podem ocorrer logo que a página é carregada pelo browser.**
 
 
-# Ex 2
+## Ex 2
 Observe o código HTML e CSS dentro da pasta `ex2`. Use JavaScript para:
 
 1. Colocar o estilo da borda da `div#one` a "1px solid red".  
@@ -30,7 +36,7 @@ Observe o código HTML e CSS dentro da pasta `ex2`. Use JavaScript para:
 **Nota: o script não precisa de ser interactivo. As modificações podem ocorrer logo que a página é carregada pelo browser.**
 
 
-# Ex 3
+## Ex 3
 Observe o conteúdo dos ficheiros na pasta `ex3`.
 Adicione JavaScript de forma a que quando o *utilizador clicar*:
 
@@ -40,20 +46,20 @@ Adicione JavaScript de forma a que quando o *utilizador clicar*:
 **Nota: Consegue fazer com que os botões funcionem como *toggle*: ou seja voltando a clicar, se desfaça a modificação**
 
 
-# Ex 4
+## Ex 4
 Observe o código da pasta `ex4`. Usando JavaScript faça com que um clique nos botões tenha como resultado o seguinte:
 1. (Botão 1) Adicione um elemento `<span>` vazio dentro da `div#one`
 2. (Botão 2) Adicione um link para `http://uc.pt` dentro da `div#two`.
 3. (Botão 3) Remova o elemento `<span>` da div#three.
 
-# Ex 5
+## Ex 5
 Observe o código da pasta `ex5`. Usando JavaScript:
 
 1. Adicione um listener de clique à `div#one`. Quando clicada, a propriedade CSS `left` da `div#one` deve ser alterada para `200px`.
 2. Adicione um listener de `mouseenter` à `div#two`. Quando o cursor do rato entrar na div, deve alterar o seu fundo para vermelho.
 3. Adicione também um listener de `mouseleave` para reverter o efeito.
 
-# Ex 6
+## Ex 6
 Crie uma função JavaScript com nome `setBorder` que aceite dois parâmetros: 
 1. um selector CSS e
 2. um valor para a propriedade `border`.
@@ -62,5 +68,8 @@ Essa função deverá alterar o estilo da propriedade `border` do elemento selec
 
 Use a função para alterar o estilo da borda de um elemento do seu documento HTML, por exemplo:
 
-setBorder("h1", "1px solid red");
+`setBorder("h1", "1px solid red");`
 
+**Pode usar esta função de forma não-interactiva: logo que a página carregar pode invocar a função para alterar a borda de um elemento.**
+
+[Voltar](/.tutorial/1.begin.md)

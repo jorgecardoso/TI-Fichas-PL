@@ -1,11 +1,14 @@
-# Intro
+[Voltar](/.tutorial/1.begin.md)
+# Ficha PL PHP
 
+## Intro
 
-__Estruture a suas soluções em pastas para cada exercício.__
+**Estruture a suas soluções em pastas para cada exercício. Para cada exercício deve criar uma pasta (`ex1`, `ex2`, `ex3`, etc.) e colocar dentro dessa pasta um ficheiro html (`ex1.html`, `ex2.html`, `ex3.html`, etc.) e outros ficheiros necessários (por exemplo, CSS).**
 
-__Use o preview em novo tab para verificar o seu trabalho. Não use o preview embebido no editor.__
+__Use o preview em novo tab para verificar o seu trabalho. Não use o preview embebido no editor uma vez que este tem bugs.__
 
---------
+--- 
+
 
 # Ex 1
 
@@ -91,3 +94,6 @@ Crie uma página com um formulário de login (username e password).
 
 # Ex 7
 Crie um formulário de contacto numa página e aplique a técnica de gravar os dados para ficheiros como discutido na aula teórica.
+
+
+[Voltar](/.tutorial/1.begin.md)

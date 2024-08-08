@@ -9,15 +9,22 @@ document.querySelectorAll("#html ol li [href]").forEach(el=> {
    setCompletedExercises(el.parentElement, delay+=100);
 });
 
-delay = 1200;
+delay = 1000;
 document.querySelectorAll("#css ol li [href]").forEach(el=> {
    setCompletedExercises(el.parentElement, delay+=100);
 });
 
-delay = 2000;
+delay = 1500;
 document.querySelectorAll("#javascript ol li [href]").forEach(el=> {
    setCompletedExercises(el.parentElement, delay+=100);
 });
+
+
+delay = 2000;
+document.querySelectorAll("#php ol li [href]").forEach(el=> {
+   setCompletedExercises(el.parentElement, delay+=100);
+});
+
 
 
 function setCompletedExercises(el, delay) {  // el: <li>

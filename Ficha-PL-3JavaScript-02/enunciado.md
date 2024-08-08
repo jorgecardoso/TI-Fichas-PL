@@ -1,11 +1,14 @@
-# Intro
+[Voltar](/.tutorial/1.begin.md)
+# Ficha PL JavaScript
 
+## Intro
 
-__Estruture a suas soluções em pastas para cada exercício.__
+**Estruture a suas soluções em pastas para cada exercício. Para cada exercício deve criar uma pasta (`ex1`, `ex2`, `ex3`, etc.) e colocar dentro dessa pasta um ficheiro html (`ex1.html`, `ex2.html`, `ex3.html`, etc.) e outros ficheiros necessários (por exemplo, CSS).**
 
-__Use o preview em novo tab para verificar o seu trabalho. Não use o preview embebido no editor.__
+__Use o preview em novo tab para verificar o seu trabalho. Não use o preview embebido no editor uma vez que este tem bugs.__
 
---------
+--- 
+
 
 
 # Ex 1
@@ -31,6 +34,7 @@ Crie uma função JavaScript chamada `createImg` que aceite como parâmetro o UR
 **Nota: pesquise informação sobre a função _element_.setAttribute()** 
 
 Use essa função para criar e adicionar três imagens ao HTML (pasta `ex3`).
-O script deverá percorrer o array já declarado no ficheiro `ex3.js`.
+O script deverá percorrer o array (este array já tem os URLs de três imagens) já declarado no ficheiro `ex3.js`.
 
 
+[Voltar](/.tutorial/1.begin.md)

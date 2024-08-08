@@ -18,7 +18,6 @@ Adicione um ficheiro HTML relativo à página de maior complexidade de informaç
 
 Implemente o HTML dessa página atendendo apenas à estrutura da informação. Tenha em atenção o uso correcto dos elementos semânticos e a correcção sintática e semântica dos elementos que utilizar. Ao incluir as imagens, garanta que as coloca numa sub-pasta dentro do projecto e que atende às boas práticas de inclusão de imagens. Não se preocupe com o resultado visual nesta fase. Nesta entrega, o projecto NÃO pode conter CSS absolutamente nenhum! Valide o seu HTML com a ferramenta https://validator.w3.org/. 
 
-**Faça o submit do projecto no Replit de forma a que o professor seja notificado de que pode comentar a implementação.**
 
 # Meta 2 - CSS
 Nesta segunda meta pretende-se que apresente:

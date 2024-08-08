@@ -11,7 +11,7 @@ html, body {
   margin-right: auto;
   width: 600px;
   height: 400px;
-  background-image: url(/images/22m.jpg);
+  background-image: url(../images/22m.jpg);
   background-size: 100% 100%;
 }
 
