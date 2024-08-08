@@ -1,9 +1,9 @@
-Ex 1 
+Ex 2 
 - Tamanho do ficheiro: 
 - Tempo para carregar a imagem na simulação Fast 3G: 
 - Tempo para carregar a imagem na simulação Slow 3G:
 
-Ex 2
+Ex 3
 
 - Tempo de download versão alta qualidade: 
 - Tempo de download versão média qualidade: 
@@ -12,12 +12,4 @@ Ex 2
 - Qual versão acharia aceitável de usar num website? Porquê?
 
 
-Ex 3
 
-
-Ex 4
-
-
-Ex 5
-
-Ex 6

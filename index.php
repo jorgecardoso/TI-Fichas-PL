@@ -4,68 +4,75 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>TI - Fichas PL</title>
-    <link rel="stylesheet" href="common.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/.css/.common.css">
+    <link rel="stylesheet" href="/.css/.main.css">
   </head>
   <body>
     <h1>Fichas de exercícios para Tecnologias da Internet (LDM - 2º ano)</h1>
-  <h2>Treino</h2>
+    <h2>Treino</h2>
     <ol>
       <li>
-        <a href="/Ficha-PL-0-Treino/" data-count="2">Ficha de treino</a>
+        <a href="/Ficha-PL-0-Treino/" data-count="3">Ficha de treino</a>
        
       </li>
     </ol>
-
-    <h2>HTML - HyperText Markup Language</h2>
-    <ol> 
-      <li>
-        <a href="/Ficha-PL-1HTML-01-Elementos-basicos/" data-count="7">Ficha HTML 1<br>Elementos básicos</a>
-      </li>
-      <li>
-        <a href="/Ficha-PL-1HTML-02-Hierarquia-de-elementos/" data-count="4">Ficha HTML 2 <br> Hierarquia de elementos</a>
-      </li>
-      <li>
-        <a href="/Ficha-PL-1HTML-03-Elementos-de-media/" data-count="6">Ficha HTML 3 <br> Elementos de media</a>
-      </li>
-      <li>
-        <a href="/Ficha-PL-1HTML-04-Forms/" data-count="6">Ficha HTML 4 <br> Formulários</a>
-      </li>
-      <li>
-        <a href="/Ficha-PL-1HTML-05-Tabelas/" data-count="3">Ficha HTML 5 <br> Tabelas</a>
-      </li>
-      <li>
-        <a href="/Ficha-PL-1HTML-Exercicios-Chave/" data-count="3">Ficha HTML <br> Exercícios-chave</a>
-      </li>
-    </ol>
-    <h2>CSS - Cascading Style Sheets</h2>
+    
+    <div id="exercicios">
+      <div id="html">
+        <h2>HTML</h2>
+        <ol> 
+          <li>
+            <a href="/Ficha-PL-1HTML-01-Elementos-basicos/" data-count="7">Ficha HTML 1<br>Elementos básicos</a>
+          </li>
+          <li>
+            <a href="/Ficha-PL-1HTML-02-Hierarquia-de-elementos/" data-count="5">Ficha HTML 2 <br> Hierarquia de elementos</a>
+          </li>
+          <li>
+            <a href="/Ficha-PL-1HTML-03-Elementos-de-media/" data-count="7">Ficha HTML 3 <br> Elementos de media</a>
+          </li>
+          <li>
+            <a href="/Ficha-PL-1HTML-04-Forms/" data-count="6">Ficha HTML 4 <br> Formulários</a>
+          </li>
+          <li>
+            <a href="/Ficha-PL-1HTML-05-Tabelas/" data-count="3">Ficha HTML 5 <br> Tabelas</a>
+          </li>
+          <li>
+            <a href="/Ficha-PL-1HTML-Exercicios-Chave/" data-count="3">Ficha HTML <br> Exercícios-chave</a>
+          </li>
+        </ol>
+      </div>
+      
+    <div id="css">
+    <h2>CSS</h2>
     <ol>
       <li>
-        <a href="/Ficha-PL-2CSS-01-CSS-Intro/">Ficha CSS 1 - Intro</a>
+        <a href="/Ficha-PL-2CSS-01-CSS-Intro/">Ficha CSS 1  <br> Intro</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-02-Unidades/">Ficha CSS 2 - Unidades</a>
+        <a href="/Ficha-PL-2CSS-02-Unidades/">Ficha CSS 2  <br> Unidades</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-03-Transicoes/">Ficha CSS 3 - Transições</a>
+        <a href="/Ficha-PL-2CSS-03-Transicoes/">Ficha CSS 3  <br> Transições</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-04-Posicionamento/">Ficha CSS 4 - Posicionamento</a>
+        <a href="/Ficha-PL-2CSS-04-Posicionamento/">Ficha CSS 4  <br> Posicionamento</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-05-Animacoes-Optional/">Ficha CSS 5 - Animações</a>
+        <a href="/Ficha-PL-2CSS-05-Animacoes-Optional/">Ficha CSS 5  <br> Animações</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-06-Flexbox/">Ficha CSS 6 - Flexbox</a>
+        <a href="/Ficha-PL-2CSS-06-Flexbox/">Ficha CSS 6  <br>Flexbox</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-07-Grid-and-Responsive-Web-Design/">Ficha CSS 7 - Grid e Responsividade</a>
+        <a href="/Ficha-PL-2CSS-07-Grid-and-Responsive-Web-Design/">Ficha CSS 7  <br> Grid e Responsividade</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-Exercicios-Chave/">Ficha CSS - Exercícios-chave</a>
+        <a href="/Ficha-PL-2CSS-Exercicios-Chave/">Ficha CSS  <br> Exercícios-chave</a>
       </li>
     </ol>
-
+    </div>
+    
+    <div id="javascript">
     <h2>JavaScript</h2>
     <ol>
       <li>
@@ -81,15 +88,30 @@
         <a href="/Ficha-PL-3JavaScript-Exercicios-Chave/">Ficha JavaScript - Exercícios-chave</a>
       </li>
     </ol>
+    </div>
 
-    <h2>PHP: Hypertext Preprocessor</h2>
+    <div id="php">
+    <h2>PHP</h2>
     <ol>
       <li>
         <a href="/Ficha-PL-4PHP-01/">Ficha PHP 1</a>
       </li>
     
     </ol>
-    <script src="/.mainscript.js"></script>
+    </div>
+    </div>
+      
+    <h2>Projecto</h2>
+    <ol>
+      <li>
+        <a href="/Projecto/">Projecto</a>
+      </li>
+
+    </ol>
+
+
+    
+    <script src="/.scripts/.mainscript.js"></script>
  <!--   <script>
     let hrefs = document.querySelectorAll("ol li [href]").forEach(el=> {
       let check = document.createElement('input');

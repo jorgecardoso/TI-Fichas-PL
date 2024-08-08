@@ -1,0 +1,17 @@
+
+input[type=checkbox] {
+  position: absolute;
+  right:0;
+  top:0;
+  transform: scale(2);
+}
+ol li {
+  outline: 1px solid #bbc43b;
+}
+ol li.done {
+  background-color: #f4ff57;
+}
+ol li:last-child { /* Exercicios chave*/
+  outline: 1px solid #bbc43b;
+}
+

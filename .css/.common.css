@@ -1,0 +1,52 @@
+body {
+  font-family: system-ui;
+  line-height: 90%;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+ol li {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 40px;
+  outline: 1px solid red;
+  background-color: #cfbebe;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 1rem;
+  margin-right:1rem;
+  margin-bottom:1rem;
+}
+
+ol li:last-child {
+  outline-width: 5px;
+}
+ol li:hover {
+  filter: brightness(1.5);
+}
+
+a,a:visited {
+  color: black;
+ 
+  text-decoration: none;
+  font-family: system-ui;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+footer {
+  font-size: 0.8rem;
+}
