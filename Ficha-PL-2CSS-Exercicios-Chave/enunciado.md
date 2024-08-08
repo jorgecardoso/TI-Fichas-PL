@@ -1,12 +1,7 @@
-# Intro
-You may want to read the following tutorial to learn about the basics of CSS: 
+[Voltar](/.tutorial/1.begin.md)
+# Ficha PL CSS - Exercícios-chave
 
-https://developer.mozilla.org/en-US/docs/Learn/CSS
-
---- 
-
-
-# Ex 1
+## Ex 1
 Crie um novo documento HTML e associe uma folha de estilos CSS. Escreva a estrutura HTML e aplique os estilos CSS que reproduzem o resultado da Figura 1.
 
 ---
@@ -14,7 +9,7 @@ Crie um novo documento HTML e associe uma folha de estilos CSS. Escreva a estrut
 Figura 1
 ___ 
 
-# Ex 2
+## Ex 2
 Crie um novo documento HTML e copie o código seguinte para o corpo do documento. Associe uma folha de estilos CSS. Complete o código CSS fornecido, de forma a que cada “cartão” tenha um fundo azul claro e padding e margens apropriadas entre cartões.
 
 HTML:
@@ -61,3 +56,5 @@ aside {
 Figura 7 
 ___ 
 
+
+[Voltar](/.tutorial/1.begin.md)

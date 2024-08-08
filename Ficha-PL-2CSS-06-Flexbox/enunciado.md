@@ -1,13 +1,17 @@
-# Intro
-You may want to read the following tutorial to learn about the basics of CSS: 
+[Voltar](/.tutorial/1.begin.md)
+# Ficha PL CSS - Flexbox
 
-https://developer.mozilla.org/en-US/docs/Learn/CSS
+## Intro
+Para uma introdução ao CSS: https://developer.mozilla.org/en-US/docs/Learn/CSS
 
-__Estruture a suas soluções em pastas para cada exercício.__
+--- 
 
-__Use o preview em novo tab para verificar o seu trabalho. Não use o preview embebido no editor.__
+**Estruture a suas soluções em pastas para cada exercício. Para cada exercício deve criar uma pasta (`ex1`, `ex2`, `ex3`, etc.) e colocar dentro dessa pasta um ficheiro html (`ex1.html`, `ex2.html`, `ex3.html`, etc.) e outros ficheiros necessários (por exemplo, CSS). É fornecido um exemplo para o Ex 1.**
 
---------
+__Use o preview em novo tab para verificar o seu trabalho. Não use o preview embebido no editor uma vez que este tem bugs.__
+
+--- 
+
 
 
 # Ex 1
@@ -36,3 +40,6 @@ Modifique o ficheiro `ex3.css`:
   
 ![](assets/fig3.png)
 Figura 3
+
+
+[Voltar](/.tutorial/1.begin.md)

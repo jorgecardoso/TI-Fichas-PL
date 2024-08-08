@@ -34,13 +34,13 @@ Aqui está um exemplo de uma tabela simples com duas linhas e duas colunas:
 ```
 
 ## Ex 1
-Crie uma tabela com 3 linhas e 2 colunas. Na primeira coluna, insira os meses do ano (janeiro, fevereiro, março). Na segunda coluna, insira o número correspondente ao mês (1, 2, 3).
+Adaptando o código acima, crie, no ficheiro `ex1.html`, uma tabela com 3 linhas e 2 colunas. Na primeira coluna, insira os meses do ano (janeiro, fevereiro, março). Na segunda coluna, insira o número correspondente ao mês (1, 2, 3).
 
 
 ## Ex 2
 
 ### Adicionando Cabeçalhos à Tabela
-Pode usar o elemento `<th>` para definir cabeçalhos para colunas ou linhas. Os cabeçalhos geralmente são em negrito e centralizados.
+Pode usar o elemento `<th>` (_table header_)para definir cabeçalhos para colunas ou linhas. Os cabeçalhos geralmente são em negrito e centralizados. Note que o cabeçalho deve na mesma fazer parte de uma linha da tabela:
 
 ```html
 <!DOCTYPE html>
@@ -67,7 +67,7 @@ Pode usar o elemento `<th>` para definir cabeçalhos para colunas ou linhas. Os 
 </html>
 ```
 
-Modifique a tabela do exercício anterior para incluir cabeçalhos para as colunas: "Mês" para a primeira coluna e "Número" para a segunda coluna.
+Copie a sua solução do `Ex1` para o ficheiro `ex2.html`. Inclua agora os cabeçalhos para as colunas: "Mês" para a primeira coluna e "Número" para a segunda coluna.
 
 ## Ex 3
 ### Ajustando Linhas ou Colunas
@@ -100,9 +100,7 @@ Pode estender várias linhas ou colunas dentro de uma tabela usando os atributos
 </html>
 ```
 
-Crie uma nova tabela como a da Figura 3. Use `<th>`, `rowspan` e `colspan` na sual solução.
-
-
+Crie, no ficheiro `ex3.html`, uma nova tabela como a da Figura 3. Use `<th>`, `rowspan` e `colspan` na sua solução.
 
 ![](assets/ex3.png)
 Figura 3

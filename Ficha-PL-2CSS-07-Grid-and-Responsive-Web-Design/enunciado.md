@@ -1,13 +1,16 @@
-# Intro
-You may want to read the following tutorial to learn about the basics of CSS: 
+[Voltar](/.tutorial/1.begin.md)
+# Ficha PL CSS - Grelha e Design Responsivo
 
-https://developer.mozilla.org/en-US/docs/Learn/CSS
+## Intro
+Para uma introdução ao CSS: https://developer.mozilla.org/en-US/docs/Learn/CSS
 
-__Estruture a suas soluções em pastas para cada exercício.__
+--- 
 
-__Use o preview em novo tab para verificar o seu trabalho. Não use o preview embebido no editor.__
+**Estruture a suas soluções em pastas para cada exercício. Para cada exercício deve criar uma pasta (`ex1`, `ex2`, `ex3`, etc.) e colocar dentro dessa pasta um ficheiro html (`ex1.html`, `ex2.html`, `ex3.html`, etc.) e outros ficheiros necessários (por exemplo, CSS). É fornecido um exemplo para o Ex 1.**
 
---------
+__Use o preview em novo tab para verificar o seu trabalho. Não use o preview embebido no editor uma vez que este tem bugs.__
+
+--- 
 
 
 # Ex 1
@@ -123,3 +126,5 @@ Altere o seu __Ex 4__ da seguinte forma:
 
 - No layout para smartphone, a imagem deve mostrar apenas o cão (faça uma versão da imagem em que remove as laterais com as flores, ficando com uma imagem tipo retrato do cão).
 - Aplique a solução de imagens responsivas em HTML ("art direction use case") para mostrar esta segunda versão da imagem no layout para smartphones.
+
+[Voltar](/.tutorial/1.begin.md)

@@ -8,18 +8,29 @@
     <link rel="stylesheet" href="/.css/.main.css">
   </head>
   <body>
-    <h1>Fichas de exercícios para Tecnologias da Internet (LDM - 2º ano)</h1>
-    <h2>Treino</h2>
-    <ol>
-      <li>
-        <a href="/Ficha-PL-0-Treino/" data-count="3">Ficha de treino</a>
-       
-      </li>
-    </ol>
+    <h2>Fichas de exercícios para Tecnologias da Internet (LDM - 2º ano): <?php echo getenv('Name');?></h2>
     
     <div id="exercicios">
+      <div id="treino">
+      <div>
+       
+      <ol>
+        <li>
+          <a href="/Ficha-PL-0-Treino/" data-count="3">Ficha de treino</a>
+
+        </li>
+      </ol>
+      </div>
+      <div>
+        <ol>
+          <li>
+            <a href="/Projecto/">Projecto</a>
+          </li>
+        </ol>
+      </div>
+      </div>
       <div id="html">
-        <h2>HTML</h2>
+        <h3>HTML</h3>
         <ol> 
           <li>
             <a href="/Ficha-PL-1HTML-01-Elementos-basicos/" data-count="7">Ficha HTML 1<br>Elementos básicos</a>
@@ -43,37 +54,37 @@
       </div>
       
     <div id="css">
-    <h2>CSS</h2>
+    <h3>CSS</h3>
     <ol>
       <li>
-        <a href="/Ficha-PL-2CSS-01-CSS-Intro/">Ficha CSS 1  <br> Intro</a>
+        <a href="/Ficha-PL-2CSS-01-CSS-Intro/" data-count="6">Ficha CSS 1  <br> Intro</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-02-Unidades/">Ficha CSS 2  <br> Unidades</a>
+        <a href="/Ficha-PL-2CSS-02-Unidades/" data-count="5">Ficha CSS 2  <br> Unidades</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-03-Transicoes/">Ficha CSS 3  <br> Transições</a>
+        <a href="/Ficha-PL-2CSS-03-Transicoes/" data-count="3">Ficha CSS 3  <br> Transições</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-04-Posicionamento/">Ficha CSS 4  <br> Posicionamento</a>
+        <a href="/Ficha-PL-2CSS-04-Posicionamento/"  data-count="5">Ficha CSS 4  <br> Posicionamento</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-05-Animacoes-Optional/">Ficha CSS 5  <br> Animações</a>
+        <a href="/Ficha-PL-2CSS-05-Animacoes/" data-count="2">Ficha CSS 5  <br> Animações</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-06-Flexbox/">Ficha CSS 6  <br>Flexbox</a>
+        <a href="/Ficha-PL-2CSS-06-Flexbox/" data-count="3">Ficha CSS 6  <br>Flexbox</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-07-Grid-and-Responsive-Web-Design/">Ficha CSS 7  <br> Grid e Responsividade</a>
+        <a href="/Ficha-PL-2CSS-07-Grid-and-Responsive-Web-Design/" data-count="5">Ficha CSS 7  <br> Grelha e Design Responsivo</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-Exercicios-Chave/">Ficha CSS  <br> Exercícios-chave</a>
+        <a href="/Ficha-PL-2CSS-Exercicios-Chave/" data-count="2">Ficha CSS  <br> Exercícios-chave</a>
       </li>
     </ol>
     </div>
     
     <div id="javascript">
-    <h2>JavaScript</h2>
+    <h3>JavaScript</h3>
     <ol>
       <li>
         <a href="/Ficha-PL-3JavaScript-01/">Ficha JavaScript 1</a>
@@ -91,7 +102,7 @@
     </div>
 
     <div id="php">
-    <h2>PHP</h2>
+    <h3>PHP</h3>
     <ol>
       <li>
         <a href="/Ficha-PL-4PHP-01/">Ficha PHP 1</a>
@@ -100,14 +111,7 @@
     </ol>
     </div>
     </div>
-      
-    <h2>Projecto</h2>
-    <ol>
-      <li>
-        <a href="/Projecto/">Projecto</a>
-      </li>
-
-    </ol>
+    
 
 
     

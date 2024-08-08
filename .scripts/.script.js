@@ -12,7 +12,7 @@ let state = {};
 fetch("/.service.php?key=" + key)
   .then(response => response.json()).then(val=>{
     console.log("received state: ", val);
-    if (val) state = val;
+    if (val && typeof val === 'object') state = val;
     document.querySelectorAll("ol li [href]").forEach(el=> {
       let check = el.querySelector('input');
       let localkey = el.getAttribute('href').replace(/\W/g, '');
@@ -35,7 +35,7 @@ document.querySelectorAll('input[type=checkbox]').forEach(el=>{
       
     let localkey = el.parentElement.querySelector('[href]').getAttribute('href').replace(/\W/g, '');
     state[localkey] = el.checked;
-    console.log(state);
+    console.log("New state: ", state);
     fetch("/.service.php?key=" + encodeURI(key) + "&value=" + JSON.stringify(state));
   });
 });

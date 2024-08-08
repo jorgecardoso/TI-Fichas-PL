@@ -1,11 +1,14 @@
-# Intro
-You may want to read the following tutorial to learn about the basics of CSS: 
+[Voltar](/.tutorial/1.begin.md)
+# Ficha PL CSS - Posicionamento
 
-https://developer.mozilla.org/en-US/docs/Learn/CSS
+## Intro
+Para uma introdução ao CSS: https://developer.mozilla.org/en-US/docs/Learn/CSS
 
 --- 
 
-**Estruture a suas soluções em pastas para cada exercício. **
+**Estruture a suas soluções em pastas para cada exercício. Para cada exercício deve criar uma pasta (`ex1`, `ex2`, `ex3`, etc.) e colocar dentro dessa pasta um ficheiro html (`ex1.html`, `ex2.html`, `ex3.html`, etc.) e outros ficheiros necessários (por exemplo, CSS). É fornecido um exemplo para o Ex 1.**
+
+__Use o preview em novo tab para verificar o seu trabalho. Não use o preview embebido no editor uma vez que este tem bugs.__
 
 --- 
 
@@ -33,7 +36,7 @@ p {
 }
 ```
 
-- Sem modificar o HTML, adicione ao CSS fornecido as regras CSS para reproduzir o resultado da Figura 1: todos os parágrafos devem ficar sobrepostos. Use obrigatoriamente **posicionamento relativo** nos `<p>`.
+- Sem modificar o HTML, adicione ao CSS fornecido as regras CSS para reproduzir o resultado da Figura 1: todos os parágrafos devem ficar sobrepostos. Use obrigatoriamente **posicionamento relativo** nos `<p>`. **Atenção: Posicionamento relativo não é a forma mais prática de obter o resultado, mas é um bom treino!**
 
 
 ---
@@ -43,7 +46,7 @@ ___
 
 
 # Ex 2
-Crie um novo documento HTML e copie o código seguinte para o corpo do documento:
+Crie um novo documento HTML (`ex2.html` dentro da pasta `ex2`) e copie o código seguinte para o corpo do documento:
 ```html
  <div class="box" id="one">One</div>
  <div class="box" id="two">Two</div>
@@ -72,7 +75,7 @@ Figura 2
 ___ 
 
 # Ex 3
-Crie um novo documento HTML e copie o código seguinte para o corpo do documento:
+Crie um novo documento HTML (`ex3.html` dentro da pasta `ex3`) e copie o código seguinte para o corpo do documento:
 ```html
 <div class="container">
  <div class="box" id="one">One</div>
@@ -148,3 +151,6 @@ Associe uma folha de estilos CSS e, sem modificar o HTML, aplique os estilos que
 ![Figura 5](assets/fig5.png)
 Figura 5
 ___ 
+
+
+[Voltar](/.tutorial/1.begin.md)
