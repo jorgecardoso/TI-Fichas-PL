@@ -35,5 +35,4 @@ if ($key && $value) {
   curl_close($ch);
   echo $xml;
 }
-
 ?>

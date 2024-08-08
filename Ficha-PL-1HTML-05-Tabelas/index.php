@@ -4,13 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Ficha PL HTML 05 - Tables</title>
-  <link rel="stylesheet" href="/index.css">
-   <link rel="stylesheet" href="/stylehtml.css">
+  <title>Ficha PL HTML 05 - Tabelas</title>
+   <?php include('../.includes/css-html.html') ?>
 </head>
 <body>
-  Este é o documento index.html e deve ficar inalterado durante a resolução da ficha.
-
+ <!-- Este é o documento index.php e deve ficar inalterado durante a resolução da ficha. -->
+  <h1>HTML: Tabelas</h1>
   <ol>
     <li><a href="ex1.html">ex1.html</a></li>
     <li><a href="ex2.html">ex2.html</a></li>
@@ -22,7 +21,6 @@
     <li><a href="ex8.html">ex8.html</a></li>
     <li><a href="ex9.html">ex9.html</a></li>
     -->
-    <script src="/.script.js"></script>
   </ol>
-</body>
-</html>
+    
+    <?php include('../.includes/footer.html') ?>

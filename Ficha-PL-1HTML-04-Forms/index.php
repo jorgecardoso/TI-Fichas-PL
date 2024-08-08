@@ -5,12 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Ficha PL HTML 04 - Forms</title>
-  <link rel="stylesheet" href="/index.css">
-   <link rel="stylesheet" href="/stylehtml.css">
+   <?php include('../.includes/css-html.html') ?>
 </head>
 <body>
-  Este é o documento index.html e deve ficar inalterado durante a resolução da ficha.
-
+<!--  Este é o documento index.html e deve ficar inalterado durante a resolução da ficha.-->
+   <h1>HTML: Formulários</h1>
   <ol>
     <li><a href="ex1.html">ex1.html</a></li>
     <li><a href="ex2.html">ex2.html</a></li>
@@ -23,6 +22,6 @@
     <li><a href="ex9.html">ex9.html</a></li>
     -->
   </ol>
-  <script src="/.script.js"></script>
-</body>
-</html>
+
+
+<?php include('../.includes/footer.html') ?>

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Ficha PL HTML - 02</title>
-  <?php include('../.includes/css-treino.html') ?>
+  <?php include('../.includes/css-html.html') ?>
 </head>
 <body>
  <!-- Este é o documento index.php e deve ficar inalterado durante a resolução da ficha.-->
