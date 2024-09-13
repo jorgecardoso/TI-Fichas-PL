@@ -5,6 +5,20 @@
 ## Intro
 Para uma introdução ao HTML: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
 
+## Ex 0
+Crie um documento HTML `ex0.html` dentro da pasta `Ficha-PL-1HTML-01-Elementos-basicos`.
+
+Escreva a estrutura básica do HTML (head, body). 
+
+Use elementos HTML para escrever um pequeno documento composto por:
+1. título (`h1`)
+2. um parágrafo (`p`)
+3. uma secção (`h2`)
+4. outro parágrafo (`h3`)
+
+(Use o gerador de lorem ipsum para o texto dos parágrafos https://www.lipsum.com/)
+
+
 ## Ex 1
 Edite o documento HTML `ex1.html` e crie uma estrutura semelhante à da Figura 1.  (Use o gerador de lorem ipsum para o texto dos parágrafos https://www.lipsum.com/)
 

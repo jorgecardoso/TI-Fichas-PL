@@ -12,14 +12,46 @@ __Use o preview em novo tab para verificar o seu trabalho. Não use o preview em
 
 --- 
 
+## Ex 0
+Crie um documento HTML (`ex0.html`) com a seguinte estrutura:
 
+```html
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Animação CSS</title>
+    
+</head>
+<body>
+    <div id="quadrado"></div>
+</body>
+</html>
+```
 
-# Ex 1
+Adicione um ficheiro CSS (`ex0.css`) :
+```css
+#quadrado {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+   
+}
+
+```
+No CSS, faça o seguinte:
+
+- Crie uma animação chamada mover que mova o quadrado da esquerda para a direita por 300px, em 2 segundos.
+- Aplique essa animação ao quadrado quando a página for carregada.
+
+## Ex 1
 
 Observe o conteúdo e resultado dos ficheiros na pasta `ex1`.
 No ficheiro `ex1.css`, sem modificar o código existente, adicione uma animação aos items do menu de forma a variar continuamente a cor de fundo entre o `orange` e `blue`. A variação entre as cores deve demorar `1.5` segundos.
 
-# Ex 2
+## Ex 2
 Duplique a solução do Ex 1 para a pasta `ex2`.
 Modifique a sua solução de forma a que a animação apenas se aplique ao item sobre o qual está o cursor do rato.
 

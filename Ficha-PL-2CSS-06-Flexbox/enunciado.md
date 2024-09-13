@@ -12,7 +12,39 @@ __Use o preview em novo tab para verificar o seu trabalho. Não use o preview em
 
 --- 
 
+## Ex 0
+Crie um document HTML (`ex0.html`) com a seguinte estrutura:
+```html
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Flexbox CSS</title>
+</head>
+<body>
+    <div id="container">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+    </div>
+</body>
+</html>
+```
 
+Adicione um CSS:
+```css
+#container {
+  width: 400px;
+  height: 300px;
+}
+```
+
+Adicione regras para fazer o seguinte:
+
+- Estilize o #container para usar o display flex.
+- Use as propriedades Flexbox para centralizar os três itens no centro da tela, tanto horizontal quanto verticalmente.
+- Dê aos itens um tamanho de 100px por 100px e uma cor de fundo diferente para cada item.
 
 # Ex 1
 

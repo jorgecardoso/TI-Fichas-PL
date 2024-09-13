@@ -33,10 +33,10 @@
         <h3>HTML</h3>
         <ol> 
           <li>
-            <a href="/Ficha-PL-1HTML-01-Elementos-basicos/" data-count="7">Ficha HTML 1<br>Elementos básicos</a>
+            <a href="/Ficha-PL-1HTML-01-Elementos-basicos/" data-count="8">Ficha HTML 1<br>Elementos básicos</a>
           </li>
           <li>
-            <a href="/Ficha-PL-1HTML-02-Hierarquia-de-elementos/" data-count="5">Ficha HTML 2 <br> Hierarquia de elementos</a>
+            <a href="/Ficha-PL-1HTML-02-Hierarquia-de-elementos/" data-count="6">Ficha HTML 2 <br> Hierarquia de elementos</a>
           </li>
           <li>
             <a href="/Ficha-PL-1HTML-03-Elementos-de-media/" data-count="7">Ficha HTML 3 <br> Elementos de media</a>
@@ -48,7 +48,7 @@
             <a href="/Ficha-PL-1HTML-05-Tabelas/" data-count="3">Ficha HTML 5 <br> Tabelas</a>
           </li>
           <li>
-            <a href="/Ficha-PL-1HTML-Exercicios-Chave/" data-count="3">Ficha HTML <br> Exercícios-chave</a>
+            <a href="/Ficha-PL-1HTML-06/" data-count="3">Ficha HTML <br> Outros exercícios</a>
           </li>
         </ol>
       </div>
@@ -57,28 +57,28 @@
     <h3>CSS</h3>
     <ol>
       <li>
-        <a href="/Ficha-PL-2CSS-01-CSS-Intro/" data-count="6">Ficha CSS 1  <br> Intro</a>
+        <a href="/Ficha-PL-2CSS-01-CSS-Intro/" data-count="7">Ficha CSS 1  <br> Intro</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-02-Unidades/" data-count="5">Ficha CSS 2  <br> Unidades</a>
+        <a href="/Ficha-PL-2CSS-02-Unidades/" data-count="6">Ficha CSS 2  <br> Unidades</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-03-Transicoes/" data-count="3">Ficha CSS 3  <br> Transições</a>
+        <a href="/Ficha-PL-2CSS-03-Transicoes/" data-count="4">Ficha CSS 3  <br> Transições</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-04-Posicionamento/"  data-count="5">Ficha CSS 4  <br> Posicionamento</a>
+        <a href="/Ficha-PL-2CSS-04-Posicionamento/"  data-count="6">Ficha CSS 4  <br> Posicionamento</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-05-Animacoes/" data-count="2">Ficha CSS 5  <br> Animações</a>
+        <a href="/Ficha-PL-2CSS-05-Animacoes/" data-count="3">Ficha CSS 5  <br> Animações</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-06-Flexbox/" data-count="3">Ficha CSS 6  <br>Flexbox</a>
+        <a href="/Ficha-PL-2CSS-06-Flexbox/" data-count="4">Ficha CSS 6  <br>Flexbox</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-07-Grid-and-Responsive-Web-Design/" data-count="5">Ficha CSS 7  <br> Grelha e Design Responsivo</a>
+        <a href="/Ficha-PL-2CSS-07-Grid-and-Responsive-Web-Design/" data-count="6">Ficha CSS 7  <br> Grelha e Design Responsivo</a>
       </li>
       <li>
-        <a href="/Ficha-PL-2CSS-Exercicios-Chave/" data-count="2">Ficha CSS  <br> Exercícios-chave</a>
+        <a href="/Ficha-PL-2CSS-08/" data-count="2">Ficha CSS  <br> Outros exercícios</a>
       </li>
     </ol>
     </div>

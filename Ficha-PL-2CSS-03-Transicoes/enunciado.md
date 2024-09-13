@@ -13,6 +13,44 @@ __Use o preview em novo tab para verificar o seu trabalho. Não use o preview em
 --- 
 
 
+## Ex 0
+Crie um document HTML (`ex0.html`) com a seguinte estrutura:
+```html
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Transições CSS</title>
+</head>
+<body>
+    <button>Clique em mim!</button>
+</body>
+</html>
+```
+
+Adicione um ficheiro CSS (`ex0.css`) e ligue-o ao HTML. O CSS deverá ter as seguintes regras:
+```css
+    button {
+        background-color: lightblue;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+       
+    }
+
+    button:hover {
+        background-color: deepskyblue;
+    }
+
+```
+
+No CSS, defina:
+
+Uma transição para o botão que altere suavemente a cor de fundo ao passar o mouse por cima.
+Use a propriedade transition para definir a duração da transição (ex.: 0.3 segundos).
+
 ## Ex 1
 
 Observe o conteúdo e resultado dos ficheiros na pasta `ex1`.

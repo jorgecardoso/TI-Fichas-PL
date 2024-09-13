@@ -12,6 +12,32 @@ __Use o preview em novo tab para verificar o seu trabalho. Não use o preview em
 
 --- 
 
+## Ex 0
+
+Crie um document HTML (`ex0.html`) com a seguinte estrutura:
+```html
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Media Queries CSS</title>
+</head>
+<body>
+    <div id="caixa">Caixa Responsiva</div>
+</body>
+</html>
+```
+Adicione um CSS:
+```css
+#caixa {
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+}
+```
+
+Use uma media query para alterar o tamanho da caixa para 100% de largura e 150px de altura quando a janela for menor que 600px de largura.
 
 # Ex 1
 

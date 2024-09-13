@@ -10,6 +10,13 @@ As instruções de cada ficha estão no ficheiro `enunciado.md` (este documento 
 
 Para facilitar a prévisualização dos resultados de cada exercício na pasta da ficha de exercícios existe um ficheiro `index.html` com links para todos os ficheiros HTML associados aos exercícios. **Não deverá modificar os ficheiros `index.html` das fichas de exercícios**.
 
+# Ex0 Configuração inicial
+
+1. Altere o nome do seu Replit, clicando no nome (canto superior esquerdo) e acrescentando o seu primeiro e último nomes de forma a que o seu Replit tenha um nome do género: `TI-Fichas-PL-JorgeCardoso`
+2. Clique na ferramenta `Secrets` e escreva também o seu nome no campo `Value`. De seguida clique no botão `Add secret`
+   
+
+
 # Ex1
 Deverá realizar as seguintes acções:
 1. Abrir o ficheiro `ex1.html` e acrescentar o seu nome na linha `My name is: <b> </b> ` (entre as tags `<b>` e `</b>`)

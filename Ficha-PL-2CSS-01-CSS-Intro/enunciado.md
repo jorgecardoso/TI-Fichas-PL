@@ -12,6 +12,17 @@ __Use o preview em novo tab para verificar o seu trabalho. Não use o preview em
 
 --- 
 
+
+## Ex 0
+Crie um novo documento HTML `ex0.html`.
+
+Crie um novo ficheiro CSS, `ex0.css`, e adicione uma regra CSS que defina a cor de fundo da página como azul.
+
+## Ex 1
+
+Crie um novo documento HTML e copie o código seguinte para o corpo do documento. Associe uma folha de estilos CSS e, sem modificar o HTML, aplique um estilo ao elemento <span> de forma a conseguir o resultado da Figura 1.
+
+
 ## Ex 1
 
 Crie um novo documento HTML e copie o código seguinte para o corpo do documento. Associe uma folha de estilos CSS e, sem modificar o HTML, aplique um estilo ao elemento <span> de forma a conseguir o resultado da Figura 1.

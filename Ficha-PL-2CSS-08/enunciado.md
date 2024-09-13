@@ -1,5 +1,5 @@
 [Voltar](/.tutorial/1.begin.md)
-# Ficha PL CSS - Exercícios-chave
+# Ficha PL CSS - Outros exercícios
 
 ## Ex 1
 Crie um novo documento HTML e associe uma folha de estilos CSS. Escreva a estrutura HTML e aplique os estilos CSS que reproduzem o resultado da Figura 1.

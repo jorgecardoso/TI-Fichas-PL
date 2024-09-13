@@ -5,6 +5,13 @@
 ## Intro
 Para uma introdução ao HTML: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
 
+
+## Ex 0
+Analise o documento `ex0.html`. 
+
+Desenhe no seu caderno ou computador, o diagrama em árvore dos elementos HTML desse documento.
+
+
 ## Ex 1
 
 Experimente gerar o esqueleto de um documento HTML através de IA: 

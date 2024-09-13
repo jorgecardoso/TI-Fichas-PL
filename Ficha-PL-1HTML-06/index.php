@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Ficha PL HTML - Exercícios-chave</title>
+  <title>Ficha PL HTML - 06</title>
   
    <?php include('../.includes/css-html.html') ?>
 </head>
 <body>
   <!--Este é o documento index.php e deve ficar inalterado durante a resolução da ficha.-->
   <header>
-    <h1>HTML: Exercícios-chave</h1>
+    <h1>HTML: Outros exercícios</h1>
   </header>
   <main>
     <div>

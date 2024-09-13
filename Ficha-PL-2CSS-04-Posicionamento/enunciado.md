@@ -12,8 +12,28 @@ __Use o preview em novo tab para verificar o seu trabalho. Não use o preview em
 
 --- 
 
+## Ex 0
+Crie um documento HTML (`ex0.html`) com a seguinte estrutura:
+```html
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Posicionamento CSS</title>
+</head>
+<body>
+    <div id="caixa1">Caixa 1</div>
+    <div id="caixa2">Caixa 2</div>
+</body>
+</html>
+```
 
-# Ex 1
+Adicione um ficheiro CSS (`ex0.css`) e regras para
+- Estilizar o `#caixa1` para ter um tamanho de `100px` por `100px`, uma cor de fundo de sua escolha, e posicione-a no canto superior esquerdo da janela usando `position: absolute`.
+- Estilize o `#caixa2` para ter um tamanho de `100px` por `100px`, uma cor de fundo diferente da primeira caixa, e posicione-a no centro da tela usando `position: fixed`.
+
+## Ex 1
 
 Crie um novo documento HTML e copie o código seguinte para o corpo do documento. 
 
@@ -45,7 +65,7 @@ Figura 1
 ___ 
 
 
-# Ex 2
+## Ex 2
 Crie um novo documento HTML (`ex2.html` dentro da pasta `ex2`) e copie o código seguinte para o corpo do documento:
 ```html
  <div class="box" id="one">One</div>
@@ -74,7 +94,7 @@ Crie um novo documento HTML (`ex2.html` dentro da pasta `ex2`) e copie o código
 Figura 2
 ___ 
 
-# Ex 3
+## Ex 3
 Crie um novo documento HTML (`ex3.html` dentro da pasta `ex3`) e copie o código seguinte para o corpo do documento:
 ```html
 <div class="container">
@@ -103,7 +123,7 @@ Associe uma folha de estilos CSS copie o código seguinte:
 Figura 3
 ___ 
 
-# Ex 4
+## Ex 4
 Crie um novo documento HTML e copie o código seguinte para o corpo do documento:
 ```html
 <div id="first">
@@ -129,7 +149,7 @@ Associe uma folha de estilos CSS e, sem modificar o HTML, escreva as regras CSS 
 Figura 4
 ___ 
 
-# Ex 5
+## Ex 5
 Crie um novo documento HTML e copie o código seguinte para o corpo do documento:
 ```html
 <header>

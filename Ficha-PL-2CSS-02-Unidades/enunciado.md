@@ -12,6 +12,31 @@ __Use o preview em novo tab para verificar o seu trabalho. Não use o preview em
 
 --- 
 
+## Ex 0
+
+Crie um documento HTML (`ex0.html`) com a seguinte estrutura:
+```html
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício CSS</title>
+
+</head>
+<body>
+    <h1>Bem-vindo ao Mundo do CSS!</h1>
+    <p>Este é um parágrafo simples para testar unidades de medida.</p>
+    <footer>Obrigado por visitar!</footer>
+</body>
+</html>
+```
+
+Adicione um ficheiro CSS externo e regras de estilo para:
+
+Definir a largura do elemento <h1> usando uma unidade em pixels (px).
+Ajustar o tamanho da fonte do <p> usando a unidade em.
+Aplicar um padding ao elemento <footer> usando uma unidade percentual (%)
 
 ## Ex 1
 

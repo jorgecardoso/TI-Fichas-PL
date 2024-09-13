@@ -16,11 +16,13 @@
 <main>
   <div>
     <ol>
-      <li><a href="ex1.html">ex1.html</a></li>
-      <li><a href="ex2.html">ex2.html</a></li>
-      <li><a href="ex3.html">ex3.html</a></li>
-      <li><a href="ex4.html">ex4.html</a></li>
-      <li><a href="ex5.html">ex5.html</a></li>
+      <li><a href="ex0/ex0.html">ex0.html</a></li>
+      <li><a href="ex1/ex1.html">ex1.html</a></li>
+      <li><a href="ex2/ex2.html">ex2.html</a></li>
+      <li><a href="ex3/ex3.html">ex3.html</a></li>
+      <li><a href="ex4/ex4.html">ex4.html</a></li>
+      <li><a href="ex5/ex5.html">ex5.html</a></li>
+      
       <!--<li><a href="ex6.html">ex6.html</a></li>
       <li><a href="ex7.html">ex7.html</a></li>
       <li><a href="ex8.html">ex8.html</a></li>
