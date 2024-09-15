@@ -1,4 +1,4 @@
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)
 # Ficha PL CSS - Posicionamento
 
 ## Intro
@@ -173,4 +173,4 @@ Figura 5
 ___ 
 
 
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)

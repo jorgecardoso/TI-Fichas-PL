@@ -1,4 +1,4 @@
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)
 # Ficha PL CSS - Outros exercícios
 
 ## Ex 1
@@ -57,4 +57,4 @@ Figura 7
 ___ 
 
 
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)

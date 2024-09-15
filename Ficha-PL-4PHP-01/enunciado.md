@@ -1,4 +1,4 @@
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)
 # Ficha PL PHP
 
 ## Intro
@@ -96,4 +96,4 @@ Crie uma página com um formulário de login (username e password).
 Crie um formulário de contacto numa página e aplique a técnica de gravar os dados para ficheiros como discutido na aula teórica.
 
 
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)

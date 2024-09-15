@@ -1,4 +1,4 @@
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)
 # Ficha PL CSS - Flexbox
 
 ## Intro
@@ -74,4 +74,4 @@ Modifique o ficheiro `ex3.css`:
 Figura 3
 
 
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)

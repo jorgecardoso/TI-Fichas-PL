@@ -1,4 +1,4 @@
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)
 # Ficha PL HTML - 06
 
 
@@ -39,4 +39,4 @@ Observe a Figura 3 com um screenshot da página principal do site da Universidad
 Figura 3
 
 
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)

@@ -1,4 +1,4 @@
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)
 
 # Instruções Ficha PL 0 - Treino
 
@@ -31,4 +31,4 @@ Deverá realizar as seguintes acções:
 2. Esperar que o professor deixe algum comentário no exercício
 3. Ler os comentários . Confirmar a que ficheiro se refere o comentário e a que linha de código.
 
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)

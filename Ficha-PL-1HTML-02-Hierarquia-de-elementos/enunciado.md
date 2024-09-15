@@ -1,4 +1,4 @@
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)
 
 # Ficha PL HTML 02 Hierarquia de elementos
 
@@ -82,4 +82,4 @@ Imagine que tinha de implementar uma estrutura HTML para a informação mostrada
 ![Figura 4](assets/fig4.png)
 Figura 4
 
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)

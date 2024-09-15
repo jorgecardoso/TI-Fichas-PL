@@ -1,4 +1,4 @@
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)
 # Ficha PL CSS - Animações
 
 ## Intro
@@ -57,4 +57,4 @@ Modifique a sua solução de forma a que a animação apenas se aplique ao item 
 
 
 
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)

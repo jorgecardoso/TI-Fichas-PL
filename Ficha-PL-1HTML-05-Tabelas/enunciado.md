@@ -1,4 +1,4 @@
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)
 # Ficha HTML 05 - Tabelas
 
 ## Intro  
@@ -113,4 +113,4 @@ As tabelas HTML são uma ferramenta poderosa para estruturar e exibir dados numa
 
 Utilizar tabelas para layout é considerado desatualizado e não está em conformidade com os padrões modernos de desenvolvimento web. Em vez disso, use CSS para estilizar e formatar seu conteúdo, garantindo a separação de preocupações e melhor acessibilidade e manutenibilidade.
 
-[Voltar](/.tutorial/1.begin.md)
+[Voltar](/1.begin.md)
