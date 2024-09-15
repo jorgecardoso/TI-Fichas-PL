@@ -1,4 +1,4 @@
-[Voltar](/1.begin.md)
+[Voltar](../main.md)
 # Ficha PL CSS - Intro
 
 ## Intro
@@ -153,4 +153,4 @@ HTML:
 ___ 
 
 
-[Voltar](/1.begin.md)
+[Voltar](../main.md)

@@ -1,4 +1,4 @@
-[Voltar](/1.begin.md)
+[Voltar](../main.md)
 # Ficha PL CSS - Transições
 
 ## Intro
@@ -65,4 +65,4 @@ Duplique agora a solução do Ex 2 para a pasta `ex3`. Modifique a solução de 
 - Quando se passa o cursor do rato por cima do item, deve iniciar-se a transição de largura.
 - Quando a transição de largura terminar, deve iniciar-se a transição de cor.
 
-[Voltar](/1.begin.md)
+[Voltar](../main.md)

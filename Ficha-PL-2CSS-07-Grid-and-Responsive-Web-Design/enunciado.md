@@ -1,4 +1,4 @@
-[Voltar](/1.begin.md)
+[Voltar](../main.md)
 # Ficha PL CSS - Grelha e Design Responsivo
 
 ## Intro
@@ -153,4 +153,4 @@ Altere o seu __Ex 4__ da seguinte forma:
 - No layout para smartphone, a imagem deve mostrar apenas o cão (faça uma versão da imagem em que remove as laterais com as flores, ficando com uma imagem tipo retrato do cão).
 - Aplique a solução de imagens responsivas em HTML ("art direction use case") para mostrar esta segunda versão da imagem no layout para smartphones.
 
-[Voltar](/1.begin.md)
+[Voltar](../main.md)

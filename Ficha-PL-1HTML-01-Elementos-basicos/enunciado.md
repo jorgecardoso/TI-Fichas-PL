@@ -1,4 +1,4 @@
-[Voltar](/1.begin.md)
+[Voltar](../main.md)
 
 # Ficha PL HTML 01 - Elementos básicos
 
@@ -102,4 +102,4 @@ Faça a previsualização da página `ex7.html` desta ficha. Use as ferramentas 
 ![Figura 7](assets/fig9.png)
 Figura 7
 
-[Voltar](/1.begin.md)
+[Voltar](../main.md)

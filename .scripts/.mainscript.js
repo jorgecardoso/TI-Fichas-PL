@@ -37,7 +37,7 @@ function setCompletedExercises(el, delay) {  // el: <li>
   countElement.innerText = 0 + " / " + numberOfExercises;
   el.appendChild(countElement);
   
-  fetch("/.service.php?key=" + key ).then(data=>{return data.json()}).then(val=>{
+  fetch("/.progress/.service.php?key=" + key ).then(data=>{return data.json()}).then(val=>{
     console.log(key, val, a.dataset.count);
     if (val) {
       if(a.dataset.count && val) {

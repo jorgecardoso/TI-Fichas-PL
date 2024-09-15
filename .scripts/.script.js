@@ -9,7 +9,7 @@ let hrefs = document.querySelectorAll("ol li [href]").forEach(el => {
 // get state of all exercises
 let key = window.location.pathname.replace(/\W/g, '');
 let state = {};
-fetch("/.service.php?key=" + key)
+fetch("/.progress/.service.php?key=" + key)
   .then(response => response.json()).then(val=>{
     console.log("received state: ", val);
     if (val && typeof val === 'object') state = val;
@@ -36,7 +36,7 @@ document.querySelectorAll('input[type=checkbox]').forEach(el=>{
     let localkey = el.parentElement.querySelector('[href]').getAttribute('href').replace(/\W/g, '');
     state[localkey] = el.checked;
     console.log("New state: ", state);
-    fetch("/.service.php?key=" + encodeURI(key) + "&value=" + JSON.stringify(state));
+    fetch("/.progress/.service.php?key=" + encodeURI(key) + "&value=" + JSON.stringify(state));
   });
 });
   

@@ -1,4 +1,4 @@
-[Voltar](/1.begin.md)
+[Voltar](../main.md)
 # Ficha PL JavaScript
 
 ## Intro
@@ -81,4 +81,4 @@ Use a função para alterar o estilo da borda de um elemento do seu documento HT
 
 **Pode usar esta função de forma não-interactiva: logo que a página carregar pode invocar a função para alterar a borda de um elemento.**
 
-[Voltar](/1.begin.md)
+[Voltar](../main.md)

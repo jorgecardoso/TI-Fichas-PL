@@ -1,4 +1,4 @@
-[Voltar](/1.begin.md)
+[Voltar](../main.md)
 # Ficha PL CSS - Unidades
 
 ## Intro
@@ -85,4 +85,4 @@ Copie o resultado do `Ex4` para a pasta `ex5` fazendo os ajustes necessários ao
 
 __Use unidades relativas__
 
-[Voltar](/1.begin.md)
+[Voltar](../main.md)

@@ -1,4 +1,4 @@
-[Voltar](/1.begin.md)
+[Voltar](../main.md)
 # Ficha PL JavaScript
 
 ## Intro
@@ -62,4 +62,4 @@ Use essa função para criar e adicionar três imagens ao HTML (pasta `ex3`).
 O script deverá percorrer o array (este array já tem os URLs de três imagens) já declarado no ficheiro `ex3.js`.
 
 
-[Voltar](/1.begin.md)
+[Voltar](../main.md)

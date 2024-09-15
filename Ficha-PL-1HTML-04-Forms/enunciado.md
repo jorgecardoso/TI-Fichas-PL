@@ -1,4 +1,4 @@
-[Voltar](/1.begin.md)
+[Voltar](../main.md)
 # Ficha PL HTML 04 - Forms
 
 ## Intro  
@@ -83,4 +83,4 @@ Copie a sua solução do Ex 4 para o ficheiro `ex5.html` e acrescente:
 ## Ex 6 
 Duplique a sua solução do Ex 5 no ficheiro `ex6.html`. Substitua a entrada de dados de escolha do tipo de almoço por um `<select>`. Veja um exemplo em https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
 
-[Voltar](/1.begin.md)
+[Voltar](../main.md)

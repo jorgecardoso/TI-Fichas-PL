@@ -1,4 +1,4 @@
-[Voltar](/1.begin.md)
+[Voltar](../main.md)
 # Ficha PL JavaScript
 
 ## Intro
@@ -87,4 +87,4 @@ Escreva código para mostrar na consola:
 4. O URL da imagem de retrato, em tamanho _thumbnail_
 
 
-[Voltar](/1.begin.md)
+[Voltar](../main.md)

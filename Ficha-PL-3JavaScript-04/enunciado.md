@@ -1,4 +1,4 @@
-[Voltar](/1.begin.md)
+[Voltar](../main.md)
 # Ficha PL JavaScript Outros exercícios
 
 
@@ -32,3 +32,5 @@ Escreva o resto do código para converter o resultado em HTML mostrado no docume
 1. Comece por inspecionar o objecto que resulta da chamada na consola JavaScript e perceba a sua estrutura.
 2. Escreva uma função que converte um objecto em HTML 
 3. Use essa função para adicionar o HTML ao documento.
+
+[Voltar](../main.md)

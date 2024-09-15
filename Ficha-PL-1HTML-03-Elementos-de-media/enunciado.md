@@ -1,4 +1,4 @@
-[Voltar](/1.begin.md)
+[Voltar](../main.md)
 
 # Ficha PL HTML 03 - Elementos de media
 
@@ -81,4 +81,4 @@ Com os ficheiros de áudio disponíveis na pasta `audio`, crie um novo documento
 Figura 5
 
 
-[Voltar](/1.begin.md)
+[Voltar](../main.md)
