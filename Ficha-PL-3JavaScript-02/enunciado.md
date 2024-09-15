@@ -9,7 +9,32 @@ __Use o preview em novo tab para verificar o seu trabalho. Não use o preview em
 
 --- 
 
+## Ex 0
+Crie uma página HTML com um parágrafo e um botão. Ao clicar no botão, o texto do parágrafo deve ser alterado por meio de JavaScript.
 
+Passos:
+1. Crie uma página HTML com:
+    - Um parágrafo (`<p>`) com algum texto inicial.
+    - Um botão (`<button>`) com o texto "Clique aqui".
+1. Escreva um script em JavaScript que, ao clicar no botão, altere o texto do parágrafo.
+1. Utilize a manipulação do DOM para mudar o conteúdo do parágrafo.
+
+```html
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Interatividade</title>
+</head>
+<body>
+    <p id="meuParagrafo">Este é o texto original.</p>
+    <button id="meuBotao">Clique aqui</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
 
 # Ex 1
 Porque é que o script `ex1.js` (pasta `ex1`) não funciona? Corrija-o, mantendo a inclusão do script no `<head>` do HTML.

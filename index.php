@@ -87,16 +87,16 @@
     <h3>JavaScript</h3>
     <ol>
       <li>
-        <a href="/Ficha-PL-3JavaScript-01/" data-count="6">Ficha JavaScript 1</a>
+        <a href="/Ficha-PL-3JavaScript-01/" data-count="7">Ficha JavaScript 1</a>
       </li>
       <li>
-        <a href="/Ficha-PL-3JavaScript-02/" data-count="3">Ficha JavaScript 2</a>
+        <a href="/Ficha-PL-3JavaScript-02/" data-count="4">Ficha JavaScript 2</a>
       </li>
       <li>
-        <a href="/Ficha-PL-3JavaScript-03/" data-count="3">Ficha JavaScript 3 </a>
+        <a href="/Ficha-PL-3JavaScript-03/" data-count="4">Ficha JavaScript 3 </a>
       </li>
       <li>
-        <a href="/Ficha-PL-3JavaScript-Exercicios-Chave/" data-count="3">Ficha JavaScript <br> Exercícios-chave</a>
+        <a href="/Ficha-PL-3JavaScript-04/" data-count="3">Ficha JavaScript  4<br> Outros exercícios</a>
       </li>
     </ol>
     </div>

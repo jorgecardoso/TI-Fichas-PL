@@ -9,7 +9,16 @@ __Use o preview em novo tab para verificar o seu trabalho. Não use o preview em
 
 --- 
 
+## Ex 0 
+Crie um programa em JavaScript que calcule a área de um retângulo com base em valores pré-definidos para a largura e altura, e exiba o resultado no console.
 
+1. Defina duas variáveis: `largura` e `altura`, com valores numéricos.
+1. Calcule a área do retângulo usando a fórmula: `Area = largura × altura
+1. Exiba o resultado da área na consola.
+
+Para executar este programa, crie um documento HTML (`ex0.html`) e associe um script (ficheiro `ex0.js`). 
+
+Faça preview to HTML e abra a consola JavaScript para ver o resultado.
 
 ## Ex 1
 

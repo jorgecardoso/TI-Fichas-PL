@@ -9,7 +9,29 @@ __Use o preview em novo tab para verificar o seu trabalho. Não use o preview em
 
 --- 
 
+## Ex 0
+Crie um objeto carro que contenha informações sobre um carro, como a marca, o modelo e o ano. Em seguida, crie uma função que exiba essas informações no console.
 
+Passos:
+1. Crie um objeto chamado carro com as seguintes propriedades:
+  - marca: String representando a marca do carro.
+  - modelo: String representando o modelo do carro.
+  - ano: Número representando o ano do carro.
+1. Crie uma função chamada mostrarInfoCarro que, ao ser chamada, exiba no console as informações do carro em formato legível.
+1. Chame a função mostrarInfoCarro para exibir as informações.
+
+```javascript
+let carro = {
+    marca: "Toyota",
+    modelo: "Corolla",
+    ano: 2020
+};
+```
+
+Saída esperada:
+```javascript
+Carro: Toyota Corolla, Ano: 2020
+```
 ## Ex 1 
 Dado o seguinte código JavaScript (deve copiar este código para o início do seu ficheiro JavaScript):
 ```js

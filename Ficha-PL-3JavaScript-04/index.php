@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Ficha PL JavaScript - Exercícios-chave</title>
+  <title>Ficha PL JavaScript - Outros exercícios</title>
   <?php include('../.includes/css-javascript.html') ?>
 </head>
 <body>
   <!--  Este é o documento index.php e deve ficar inalterado durante a resolução da ficha. -->
   <header>
-    <h1>JavaScript: Exercícios-chave</h1>
+    <h1>JavaScript: Outros exercícios</h1>
   </header>
   <main>
     <div>

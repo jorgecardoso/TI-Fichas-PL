@@ -1,5 +1,5 @@
 [Voltar](/.tutorial/1.begin.md)
-# Ficha PL JavaScript Exercícios-chave
+# Ficha PL JavaScript Outros exercícios
 
 
 
