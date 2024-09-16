@@ -11,7 +11,7 @@
 1. [Ficha PL HTML 04 Forms](Ficha-PL-1HTML-04-Forms/enunciado.md)
 1. [Ficha PL HTML 05 Tabelas](Ficha-PL-1HTML-05-Tabelas/enunciado.md)
   
-1. [Ficha PL HTML 06 - Outros exercícios](Ficha-PL-1HTML-06/enunciado.md)
+1. [Ficha PL HTML 06 - Outros exercícios](Ficha-PL-1HTML-07/enunciado.md)
 
 ## CSS - Cascading Style Sheet
 1. [Ficha PL CSS 01 Intro](Ficha-PL-2CSS-01-CSS-Intro/enunciado.md)

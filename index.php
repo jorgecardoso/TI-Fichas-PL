@@ -47,8 +47,11 @@
           <li>
             <a href="/Ficha-PL-1HTML-05-Tabelas/" data-count="3">Ficha HTML 5 <br> Tabelas</a>
           </li>
+            <li>
+                <a href="/Ficha-PL-1HTML-06-Deploy" data-count="1">Ficha HTML 6 <br> Deploy</a>
+            </li>
           <li>
-            <a href="/Ficha-PL-1HTML-06/" data-count="3">Ficha HTML <br> Outros exercícios</a>
+            <a href="/Ficha-PL-1HTML-07/" data-count="3">Ficha HTML <br> Outros exercícios</a>
           </li>
         </ol>
       </div>
