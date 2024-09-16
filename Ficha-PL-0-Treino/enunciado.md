@@ -2,18 +2,19 @@
 
 # Instruções Ficha PL 0 - Treino
 
-Esta ficha serve para ganhar alguma experiência com o Replit e o processo de resolução e submissão das fichas de exercícios.
+Esta ficha serve para ganhar alguma experiência com o PHPStorm e o processo de resolução e submissão das fichas de exercícios.
 
-Cada ficha de exercícios está associada a uma pasta no Replit (`Ficha-PL-...`). Cada ficha tem vários exercícios associados a um ficheiro (por exemplo, `ex1.html`). Alguns exercícios requerem também respostas no ficheiro `respostas.txt`.
+Cada ficha de exercícios está associada a uma pasta no projecto PHPStorm (`Ficha-PL-...`). Cada ficha tem vários exercícios associados a um ficheiro (por exemplo, `ex1.html`). Alguns exercícios requerem também respostas no ficheiro `respostas.txt`.
 
 As instruções de cada ficha estão no ficheiro `enunciado.md` (este documento que está a ler).
 
-Para facilitar a prévisualização dos resultados de cada exercício na pasta da ficha de exercícios existe um ficheiro `index.html` com links para todos os ficheiros HTML associados aos exercícios. **Não deverá modificar os ficheiros `index.html` das fichas de exercícios**.
+Para facilitar a prévisualização dos resultados de cada exercício na pasta da ficha de exercícios existe um ficheiro `index.php` com links para todos os ficheiros HTML associados aos exercícios. **Não deverá modificar os ficheiros `index.php` das fichas de exercícios**.
 
 # Ex0 Configuração inicial
 
-1. Altere o nome do seu Replit, clicando no nome (canto superior esquerdo) e acrescentando o seu primeiro e último nomes de forma a que o seu Replit tenha um nome do género: `TI-Fichas-PL-JorgeCardoso`
-2. Clique na ferramenta `Secrets` e escreva também o seu nome no campo `Value`. De seguida clique no botão `Add secret`
+1. Edite o ficheiro `index.php` principal e acrescente o seu nome:
+    - Na linha 11, onde surge `[Primeiro Ultimo]`, substitua pelo seu primeiro e último nomes.
+   
    
 
 

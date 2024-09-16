@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/.css/.main.css">
   </head>
   <body>
-    <h2>Fichas de exercícios para Tecnologias da Internet (LDM - 2º ano): Primeiro Ultimo</h2>
+    <h2>Fichas de exercícios para Tecnologias da Internet (LDM - 2º ano): [Primeiro Ultimo]</h2>
     
     <div id="exercicios">
       <div id="treino">
