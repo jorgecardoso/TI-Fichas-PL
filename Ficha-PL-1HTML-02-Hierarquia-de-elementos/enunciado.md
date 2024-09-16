@@ -14,9 +14,8 @@ Desenhe no seu caderno ou computador, o diagrama em árvore dos elementos HTML d
 
 ## Ex 1
 
-Experimente gerar o esqueleto de um documento HTML através de IA: 
-- Abra o ficheiro `ex1.html` no Replit e escolha a opção _generate code with AI_ ou pressione `Ctrl+I`
-- Escreva uma _prompt_ do género: `Gera o esqueleto de um documento HTML, em português Europeu, por favor.`
+Experimente gerar o esqueleto de um documento HTML através de IA:
+- No ChatGPT, Escreva uma _prompt_ do género: `Gera o esqueleto de um documento HTML, em português Europeu, por favor.`
 - Aceite o resultado e analise-o. Há algum elemento gerado que não compreenda? Peça esclarecimentos ao docente.
 
 
