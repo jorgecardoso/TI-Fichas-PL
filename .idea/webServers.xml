@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1c324b02-eb4e-4b52-ae87-01224216ae7e" name="ServidorDEIDocente" url="http://eden.dei.uc.pt">
+        <fileTransfer rootFolder="/home/docentes/jorgecardoso" accessType="SFTP" host="eden.dei.uc.pt" port="22" sshConfigId="3f7ee239-d3fc-42c7-9bc4-4c8201f69c80" sshConfig="jorgecardoso@eden.dei.uc.pt:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="6db7cce5-2c9d-4d4f-ba48-1d0057e6bccb" name="ServidorDEIAluno">
+        <fileTransfer accessType="SFTP" host="student.dei.uc.pt" port="22" sshConfigId="926b1380-d59c-4e98-95d1-2e3ce4bdba69" sshConfig="username@student.dei.uc.pt:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

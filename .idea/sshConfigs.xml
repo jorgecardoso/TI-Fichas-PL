@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="eden.dei.uc.pt" id="3f7ee239-d3fc-42c7-9bc4-4c8201f69c80" port="22" nameFormat="DESCRIPTIVE" username="jorgecardoso" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="student.dei.uc.pt" id="926b1380-d59c-4e98-95d1-2e3ce4bdba69" port="22" nameFormat="DESCRIPTIVE" username="username" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
