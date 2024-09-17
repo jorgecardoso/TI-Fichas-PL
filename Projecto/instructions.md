@@ -5,15 +5,6 @@ Nestas instruções são apenas apresentados os detalhes relativos à implementa
 Leia o enunciado completo para conhecer como deve documentar o seu trabalho a entregar em cada meta:
 [https://docs.google.com/document/d/1FcOeSfvjo6uAWLEoiHci_H7JTt36SSj28O_BbtC5HQA/edit?usp=sharing](https://docs.google.com/document/d/18p9buETGcIQaSorqEAPGYLLHKWo0Cgzw70zSgl1lBsE/edit?usp=sharing)
 
-## Como descarregar o projecto do Replit
-
-Descarregue o seu projecto num ficheiro zip, seguindo os seguintes passos:
-1. Abra a ferramenta shell no seu Replit
-2. Escreva a seguinte linha na shell
- `zip -FS projecto.zip Projecto/* `
-3. Pressione a tecla [Enter]
-4. Deverá surgir um ficheiro projecto.zip na lista de ficheiros
-5. Descarregue, clicando nos três pontos verticais junto ao nome do ficheiro quando passa com o cursor do rato por cima e escolha a opção “Download”
 
 # Meta 1 - Planeamento e HTML
 Nesta primeira meta pretende-se que apresente:
@@ -24,7 +15,7 @@ Nesta primeira meta pretende-se que apresente:
 5. implementação HTML da página mais complexa,
 
 
-No Replit, adicione na pasta Projecto, um ficheiro HTML relativo à página de maior complexidade de informação do seu site (de entre as que escolheu implementar). 
+Adicione na pasta Projecto, um ficheiro HTML relativo à página de maior complexidade de informação do seu site (de entre as que escolheu implementar). 
 
 Implemente o HTML dessa página atendendo apenas à estrutura da informação. Tenha em atenção o uso correcto dos elementos semânticos e a correcção sintática e semântica dos elementos que utilizar. Ao incluir as imagens, garanta que as coloca numa sub-pasta dentro do projecto e que atende às boas práticas de inclusão de imagens. 
 
@@ -41,7 +32,7 @@ Nesta segunda meta pretende-se que apresente:
 
 
 Implemente (HTML e CSS) as 3 páginas do seu site, para responder ao ponto 1. Garanta que estrutura convenientemente os ficheiros HTML e CSS: os ficheiros HTML devem ter nomes simples (tudo em minúsculas e sem acentos nem caracteres especiais como símbolos). Os ficheiros HTML devem ser colocados na raíz da pasta do projecto. 
-Os ficheiros CSS devem ser colocados numa sub-pasta chamada “css” no seu projecto Replit. Decida quantos ficheiros CSS precisa: se existirem estilos que apenas são necessários para uma das páginas, pode fazer sentido colocar esses estilos num ficheiro CSS separado. 
+Os ficheiros CSS devem ser colocados numa sub-pasta chamada “css” no seu projecto. Decida quantos ficheiros CSS precisa: se existirem estilos que apenas são necessários para uma das páginas, pode fazer sentido colocar esses estilos num ficheiro CSS separado. 
 
 Para responder ao ponto 4 valide o HTML (https://validator.w3.org/) e CSS ( https://jigsaw.w3.org/css-validator/).
 

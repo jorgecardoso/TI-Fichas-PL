@@ -2,7 +2,7 @@
 
 ## Descarregar as fichas de exercícios
 1. Abra a página https://github.com/jorgecardoso/TI-Fichas-PL/releases
-2. Descarregue o ficheiro `TI-Fichas-PL.zip` mais recente
+2. Descarregue o ficheiro `Source code (zip)` mais recente
 3. Quando o download terminar, expanda o zip para uma pasta
 4. Guarde a pasta num local seguro no seu computador
 
