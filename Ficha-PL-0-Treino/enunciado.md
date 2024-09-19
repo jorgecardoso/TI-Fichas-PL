@@ -27,9 +27,6 @@ Deverá realizar as seguintes acções:
 1. Criar um novo documento HTML `ex2.html` na pasta `Ficha-PL-0-Treino` e copiar o conteúdo do documento `ex1.html` para `ex2.html`
 2. Alterar o cabeçalho ` <h1>Hello world!</h1>` para ` <h1>Página 2</h1>`
 
-# Ex3
-1. Convidar o docente para o projecto: Invite -> email 
-2. Esperar que o professor deixe algum comentário no exercício
-3. Ler os comentários . Confirmar a que ficheiro se refere o comentário e a que linha de código.
+
 
 [Voltar](../main.md)
