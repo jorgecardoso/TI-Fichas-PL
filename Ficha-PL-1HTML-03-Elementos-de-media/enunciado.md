@@ -23,10 +23,7 @@ Crie um documento HTML no ficheiro `ex0.html` e insira um elemento de imagem `<i
 1. Tire uma foto com o seu smartphone (ou utilize uma foto que já possua)
 2. Transfira-a para o seu Replit (pasta `Ficha-PL-1HTML-03-Elementos-de-media/imagens`)
 3. Inclua-a no documento HTML `ex1.html`.
-1. Aponte o tamanho do ficheiro da imagem:
-   1. Faça clique com o botão direito na pasta `imagens` onde colocou a sua foto e escolha a opção `Open shell here
-   2. Na linha de comando que se abre, escreva o comando: `du -h *` e  carregue em `Enter`
-   3. Deverá obter uma listagem com os tamanhos dos ficheiros dentro dessa pasta.
+1. Aponte o tamanho do ficheiro da imagem (abra o File Explorer ou Finder e verifique o tamanho do ficheiro de imagem)
    4. Aponte o tamanho no ficheiro `respostas.txt`
 4. Use a ferramenta developer tools do Google Chrome para simular a visualização da página `ex1.html` através de um telemóvel com ligação 3G (veja a Figura 1 para saber como simular). 
    - Quanto tempo demora a carregar a página?
