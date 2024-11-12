@@ -41,7 +41,58 @@ Use uma media query para alterar o tamanho da caixa para 100% de largura e 150px
 
 # Ex 1
 
-Observe a estrutura HTML fornecida para o documento `ex1.html`:
+Analise o seguinte código HTML e CSS e desenhe o layout da grelha: utilizando as regras CSS acima, desenhe um esboço da estrutura da grelha. Rotule cada área (cabeçalho, barra lateral, conteúdo, rodapé) com base nas propriedades  grid-template-columns e grid-template-rows. 
+
+__Faça isto apenas o papel, sem recorrer à visualização no browser__
+
+
+```html
+<div class="grid-container">
+    <div class="header">Header</div>
+    <div class="sidebar">Sidebar</div>
+    <div class="content">Content</div>
+    <div class="footer">Footer</div>
+</div>
+```
+
+```css
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 10px;
+    height: 50vh;
+}
+
+.header {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    background-color: lightblue;
+}
+
+.sidebar {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: lightgreen;
+}
+
+.content {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: lightcoral;
+}
+
+.footer {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    background-color: lightgrey;
+}
+```
+
+
+# Ex 2
+
+Observe a estrutura HTML fornecida para o documento `ex2.html`:
 ```html
 <body>
     <header>Header</header>
@@ -68,8 +119,8 @@ Usando CSS Grid, implemente o seguinte layout para computador Desktop:
 ``` 
 
 
-# Ex 2
-Copie a sua solução do __Ex 1__ para os documentos relativos ao __Ex 2__. Adicione uma stylesheet para tornar o design responsivo. Considere apenas o caso smartphone e reproduza o seguinte layout:
+# Ex 3
+Copie a sua solução do __Ex 2__ para os documentos relativos ao __Ex 3__. Adicione uma stylesheet para tornar o design responsivo. Considere apenas o caso smartphone e reproduza o seguinte layout:
 
 ```txt
  ---------------
@@ -100,8 +151,8 @@ Aplique mais regras CSS para esconder o footer no layout smartphone:
  ---------------
 ```
 
-# Ex 3
-À sua solução para o __Ex 2__, acrescente conteúdo ao elemento de navegação de forma a criar um menu com links:
+# Ex 4
+À sua solução para o __Ex 3__, acrescente conteúdo ao elemento de navegação de forma a criar um menu com links:
 
 Desktop:
 ```txt
@@ -137,18 +188,18 @@ Smartphone (os links devem ficar posicionados numa linha horizontal que quebra q
  ---------------
 ```
 
-# Ex 4
+# Ex 5
 
-Partindo da sua solução do __Ex 2__ ou __Ex 3__, adicione uma imagem responsiva ao "Main content", tendo em conta as seguintes indicações:
+Partindo da sua solução do __Ex 3__ ou __Ex 4__, adicione uma imagem responsiva ao "Main content", tendo em conta as seguintes indicações:
 
 - Utilize o ficheiro `a-dog-running.jpeg` que se encontra na pasta `images`
 - A imagem deve ocupar toda a largura do contentor "Main content"
 - A imagem deve ser responsiva ("resolution switching use case"). Descarregue a imagem para o seu computador e produza versões com menor resolução (uma com 1024 pixeis de largura, outra com 640 pixeis de largura).
 - Aplique a solução de imagens responsivas em HTML às três versões (640px, 1024px, 4368px (original)).
 
-# Ex 5
+# Ex 6
 
-Altere o seu __Ex 4__ da seguinte forma: 
+Altere o seu __Ex 5__ da seguinte forma: 
 
 - No layout para smartphone, a imagem deve mostrar apenas o cão (faça uma versão da imagem em que remove as laterais com as flores, ficando com uma imagem tipo retrato do cão).
 - Aplique a solução de imagens responsivas em HTML ("art direction use case") para mostrar esta segunda versão da imagem no layout para smartphones.
