@@ -16,7 +16,7 @@
        
       <ol>
         <li>
-          <a href="/Ficha-PL-0-Treino/" data-count="3">Ficha de treino</a>
+          <a href="/Ficha-PL-0-Treino/" data-count="2">Ficha de treino</a>
 
         </li>
       </ol>

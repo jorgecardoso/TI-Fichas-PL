@@ -18,7 +18,6 @@
   <ol>
     <li><a href="ex1.html">ex1.html</a></li>
     <li><a href="ex2.html">ex2.html</a></li>
-    <li><a href="ex3.html">ex3.html</a></li>
   </ol>
       </div>
   </main>
