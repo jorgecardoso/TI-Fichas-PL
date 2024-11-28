@@ -15,6 +15,7 @@ __Use o preview em novo tab para verificar o seu trabalho. Não use o preview em
 ## Ex 0
 
 Crie um documento HTML (`ex0.html`) com a seguinte estrutura:
+
 ```html
 <!DOCTYPE html>
 <html lang="pt-PT">
@@ -34,9 +35,9 @@ Crie um documento HTML (`ex0.html`) com a seguinte estrutura:
 
 Adicione um ficheiro CSS externo e regras de estilo para:
 
-Definir a largura do elemento <h1> usando uma unidade em pixels (px).
-Ajustar o tamanho da fonte do <p> usando a unidade em.
-Aplicar um padding ao elemento <footer> usando uma unidade percentual (%)
+1. Definir a largura do elemento `<h1>` usando uma unidade em pixels (px).
+1. Ajustar o tamanho da fonte do `<p>` usando a unidade em.
+1. Aplicar um padding ao elemento `<footer>` usando uma unidade percentual (%)
 
 ## Ex 1
 
