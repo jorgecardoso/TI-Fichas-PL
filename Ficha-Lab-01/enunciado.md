@@ -201,7 +201,7 @@ Sugestões:
 
 ---
 
-# Entrega
+# Resultado final
 
 No final da aula deverá existir na pasta desta ficha:
 
