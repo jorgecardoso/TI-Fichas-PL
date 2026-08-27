@@ -150,7 +150,7 @@ Porque desaparecem as alterações efetuadas através do inspetor?
 
 Associe o ficheiro `script.js` ao documento HTML, colocando o seguinte código imediatamente antes de `<\body>`:
 ```html
-<script src="./script.js">
+<script src="./script.js"></script>
 ```
 
 No ficheiro JavaScript escreva:
