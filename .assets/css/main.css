@@ -21,7 +21,7 @@ div {
 }
 
 #exercicios>div {
-    width: 15%;
+    width: 100%;
     min-width: 150px;
     flex-basis: 15%;
     /* flex-grow: 1; */
@@ -81,7 +81,7 @@ li.partial span::after {
 
 div#exercicios {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   width: 100%;
 }

@@ -1,4 +1,8 @@
-# TI-Fichas-PL
+# TI-Fichas-PL - Configuração do ambiente de trabalho
+
+## Instalar VSCode
+
+
 
 ## Descarregar as fichas de exercícios
 1. Abra a página https://github.com/jorgecardoso/TI-Fichas-PL/releases
