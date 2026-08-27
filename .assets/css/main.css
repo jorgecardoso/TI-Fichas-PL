@@ -2,19 +2,12 @@ body {
  
 }
 
-li:last-child {
-  outline-width: 5px;
-}
+
 li:hover {
   filter: brightness(1.5);
 }
 
-ol:nth-of-type(1)  li.done {
-  background-color: #f4ff57;
-}
-ol:nth-of-type(1) li:last-child { /* Exercicios chave*/
-  outline: 5px solid #bbc43b;
-}
+
 
 div {
   position:relative;

@@ -36,9 +36,7 @@ main ol li {
   width:250px;
 }
 
-ol li:last-child {
-  outline-width: 5px;
-}
+
 ol li:hover {
   filter: brightness(1.5);
 }
