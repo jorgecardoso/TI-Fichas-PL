@@ -164,7 +164,7 @@ Abra a consola do navegador e confirme que a mensagem é apresentada.
 
 # 6. Primeira Interação
 
-Adicione um botão (`<button> </button>`à página com o texto:
+Adicione um botão (`<button> </button>`) à página com o texto:
 
 ```text
 Clique aqui
