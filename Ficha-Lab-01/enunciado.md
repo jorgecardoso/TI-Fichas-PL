@@ -52,7 +52,6 @@ O documento deverá conter:
 - um cabeçalho principal;
 - uma breve apresentação pessoal;
 - uma lista de interesses;
-- uma hiperligação para um website à sua escolha.
 
 Exemplo de resultado esperado:
 
@@ -171,7 +170,17 @@ Adicione um botão (`<button> </button>`à página com o texto:
 Clique aqui
 ```
 
-Quando o utilizador clicar no botão, deverá surgir uma mensagem na consola.
+Quando o utilizador clicar no botão, deverá surgir uma mensagem na consola. Para isto acontecer, deve adicionar o seguinte código ao ficheiro `script.js`:
+
+```javascript
+let botao = document.querySelector("button");
+
+botao.addEventListener("click", eventoClick);
+
+function eventoClick() {
+    console.log("Botão pressionado");
+}
+```
 
 Exemplo:
 
@@ -195,7 +204,6 @@ Melhore a página adicionando:
 Sugestões:
 
 - alterar margens ou espaçamentos;
-- alterar a aparência dos links;
 - adicionar uma cor de fundo ao cabeçalho;
 - utilizar bordas ou cantos arredondados.
 
