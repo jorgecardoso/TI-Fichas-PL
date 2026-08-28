@@ -17,7 +17,7 @@ No final desta aula deverá ser capaz de:
 No interior da pasta desta ficha crie os seguintes ficheiros:
 
 ```text
-lab01/
+Ficha-Lab-01/
 │
 ├── index.html
 ├── style.css
@@ -48,10 +48,10 @@ __Nota:__ Escreva manualmente o código seguinte no ficheiro `index.html`. Em fa
 
 O documento deverá conter:
 
-- um título da página;
-- um cabeçalho principal;
-- uma breve apresentação pessoal;
-- uma lista de interesses;
+- um título da página (elemento HTML `<title>` no `<head>`);
+- um cabeçalho principal (`<h1>`);
+- uma breve apresentação pessoal (`<p>`);
+- uma lista de interesses (`<ul>` e `<li>`);
 
 Exemplo de resultado esperado:
 
@@ -221,7 +221,7 @@ Ficha-Lab-01/
 └── script.js
 ```
 
-Todos os ficheiros devem funcionar corretamente quando o ficheiro `index.html` é aberto no navegador.
+Todos os ficheiros devem funcionar corretamente quando o ficheiro `index.html` é aberto no navegador. Não devem surgir erros na consola JavaScript.
 
 ---
 
