@@ -5,7 +5,12 @@
 2. Instalar extensão Live Server
 
 ## Criar repositório local com as fichas de laboratório
-1. https://github.com/jorgecardoso/TI-Fichas-PL.git
+git clone https://github.com/jorgecardoso/TI-Fichas-PL.git
+mv TI-Fichas-PL TI-Fichas-PL-Nome
+cd TI-Fichas-PL-Nome
+
+git remote rename origin upstream  
+
 
 ## Descarregar as fichas de exercícios
 1. Abra a página https://github.com/jorgecardoso/TI-Fichas-PL/releases
