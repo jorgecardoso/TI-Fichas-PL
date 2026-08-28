@@ -11,6 +11,8 @@ No final desta aula deverá ser capaz de:
 - Utilizar classes e seletores CSS.
 - Melhorar a aparência visual de uma página Web.
 
+_Pode ver no final da ficha uma screenshot exemplificativo de um possível resultado final_
+
 ---
 
 # Preparação
@@ -283,6 +285,9 @@ A página deverá:
 - incluir conteúdo estruturado;
 - possuir estilos CSS próprios;
 - apresentar uma navegação funcional.
+
+Screenshot exemplo:
+![Figura 1](../.assets\images\screencapture-10-11-0-26-5500-Ficha-Lab-02-index-html-2026-08-28-23_29_57.png)
 
 ---
 
