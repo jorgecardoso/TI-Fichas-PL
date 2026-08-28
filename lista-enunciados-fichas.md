@@ -25,9 +25,9 @@ Semanas 1-3
     - Manipulação muito básica do DOM
 
 ### Fichas
-1. [Ficha Lab 01](Ficha-Lab-01/enunciado.md)
-2. [Ficha Lab 02](Ficha-Lab-02/enunciado.md)
-2. [Ficha Lab 03](Ficha-Lab-03/enunciado.md)
+1. [Ficha Lab 01](Ficha-Lab-01/enunciado-01.md)
+2. [Ficha Lab 02](Ficha-Lab-02/enunciado-02.md)
+2. [Ficha Lab 03](Ficha-Lab-03/enunciado-03.md)
 
 ### Resultado
 
@@ -62,9 +62,9 @@ Semanas 4-6
     - DNS
     - HTTP/S
 ### Fichas
-1. [Ficha Lab 04](Ficha-Lab-04/enunciado.md)
-2. [Ficha Lab 05](Ficha-Lab-05/enunciado.md)
-2. [Ficha Lab 06](Ficha-Lab-06/enunciado.md)
+1. [Ficha Lab 04](Ficha-Lab-04/enunciado-04.md)
+2. [Ficha Lab 05](Ficha-Lab-05/enunciado-05.md)
+2. [Ficha Lab 06](Ficha-Lab-06/enunciado-06.md)
 ### Resultado
 
 Um site já com:
@@ -95,10 +95,10 @@ Semanas 7-10
     - Criação dinâmica de elementos DOM
 
 ### Fichas
-1. [Ficha Lab 07](Ficha-Lab-07/enunciado.md)
-2. [Ficha Lab 08](Ficha-Lab-08/enunciado.md)
-2. [Ficha Lab 09](Ficha-Lab-09/enunciado.md)
-2. [Ficha Lab 10](Ficha-Lab-10/enunciado.md)
+1. [Ficha Lab 07](Ficha-Lab-07/enunciado-07.md)
+2. [Ficha Lab 08](Ficha-Lab-08/enunciado-08.md)
+2. [Ficha Lab 09](Ficha-Lab-09/enunciado-09.md)
+2. [Ficha Lab 10](Ficha-Lab-10/enunciado-10.md)
 
 ### Resultado
 
@@ -124,9 +124,9 @@ Semanas 11-13
     - Refinamento visual
 
 ### Fichas
-1. [Ficha Lab 11](Ficha-Lab-11/enunciado.md)
-2. [Ficha Lab 12](Ficha-Lab-12/enunciado.md)
-2. [Ficha Lab 13](Ficha-Lab-13/enunciado.md)
+1. [Ficha Lab 11](Ficha-Lab-11/enunciado-11.md)
+2. [Ficha Lab 12](Ficha-Lab-12/enunciado-12.md)
+2. [Ficha Lab 13](Ficha-Lab-13/enunciado-13.md)
 
 
 
