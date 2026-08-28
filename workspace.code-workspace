@@ -1,0 +1,25 @@
+{
+	"folders": [
+        {
+            "path": "."
+        },
+       
+    ],
+	"settings": {
+		"liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.useLocalIp": true,
+  "liveServer.settings.https": {
+        "key": "D:\\GitRepos\\TI-Fichas-PL\\ssl\\server.key",
+        "cert": "D:\\GitRepos\\TI-Fichas-PL\\ssl\\server.crt",
+        "passphrase": "thisismypassphrase",
+        "enable": true
+    },
+    "liveServer.settings.ignoreFiles": [
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.ts"
+    ],
+    "liveServer.settings.multiRootWorkspaceName": "TI-Fichas-PL"
+	}
+}
