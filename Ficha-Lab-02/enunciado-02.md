@@ -15,12 +15,6 @@ No final desta aula deverá ser capaz de:
 
 # Preparação
 
-Utilize a pasta:
-
-```text
-Ficha-Lab-02
-```
-
 Crie os seguintes ficheiros:
 
 ```text
@@ -156,7 +150,7 @@ Aplique pelo menos:
 
 - uma classe;
 - um identificador;
-- três seletores por elemento.
+- três seletores de elemento.
 
 ---
 
