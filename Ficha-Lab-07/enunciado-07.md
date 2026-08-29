@@ -1,7 +1,6 @@
-# Tecnologias Web
-## Ficha Laboratorial 7: Layouts com Flexbox
+# Ficha Laboratorial 7: Layouts com Flexbox
 
-### Objetivos
+## Objetivos
 
 No final desta aula deverá ser capaz de:
 
@@ -33,10 +32,10 @@ Todo o layout será construído utilizando **Flexbox**.
 
 # Preparação
 
-Crie uma pasta para esta ficha:
+Crie os ficheiros para esta ficha:
 
 ```text
-lab07/
+Ficha-Lab-07/
 │
 ├── index.html
 ├── style.css
@@ -47,7 +46,7 @@ lab07/
 
 # 1. Estrutura da Página
 
-Crie uma página contendo a seguinte estrutura:
+Crie uma página contendo a seguinte estrutura (pode aproveitar/copiar a estrutura da ficha anterior):
 
 ```text
 +-----------------------------+
@@ -63,7 +62,7 @@ Crie uma página contendo a seguinte estrutura:
 +-----------------------------+
 ```
 
-Utilize elementos semânticos adequados.
+Utilize elementos semânticos adequados. 
 
 ---
 
@@ -237,7 +236,7 @@ Crie um array contendo nomes de secções.
 Exemplo:
 
 ```javascript
-const secoes = [
+const seccoes = [
     "Cursos",
     "Projetos",
     "Eventos",
@@ -256,8 +255,8 @@ Utilize um ciclo para percorrer os elementos.
 Exemplo:
 
 ```javascript
-for (const secao of secoes) {
-    console.log(secao);
+for (const seccao of seccoes) {
+    console.log(seccao);
 }
 ```
 
@@ -311,25 +310,13 @@ Quando a largura da janela diminuir, os cartões deverão reorganizar-se automat
 
 ---
 
-# Desafio
 
-Crie uma homepage institucional contendo:
-
-- menu Flexbox;
-- secção principal;
-- cartões gerados dinamicamente através de JavaScript;
-- rodapé.
-
-Todos os cartões devem ser construídos a partir de um array JavaScript.
-
----
-
-# Entrega
+# Resultado final
 
 A pasta deverá apresentar a seguinte estrutura:
 
 ```text
-lab07/
+Ficha-Lab-07/
 │
 ├── index.html
 ├── style.css
@@ -342,6 +329,9 @@ A página deverá demonstrar:
 - alinhamento e distribuição de elementos;
 - utilização de arrays;
 - criação dinâmica de conteúdo.
+
+Screenshot exemplo:
+![Figura 1](../.assets/images/ficha7-screenshot.png)
 
 ---
 
