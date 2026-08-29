@@ -12,6 +12,9 @@ No final desta aula deverá ser capaz de:
 - Utilizar elementos HTML apropriados para figuras e legendas.
 - Criar uma galeria simples de imagens.
 
+
+_Pode ver no final da ficha uma screenshot exemplificativo de um possível resultado final_
+
 ---
 
 # Preparação
@@ -313,6 +316,9 @@ A página deverá incluir:
 - estilos CSS personalizados;
 - imagens responsivas.
 
+
+Screenshot exemplo:
+![Figura 1](../.assets\images\screencapture-10-11-0-26-5500-Ficha-Lab-03-index-html-2026-08-29-11_28_17.png)
 ---
 
 # Questões de Reflexão

@@ -26,7 +26,7 @@ A página deverá recolher informações do utilizador e apresentar uma mensagem
 Crie uma pasta para esta ficha:
 
 ```text
-lab04/
+Ficha-Lab-04/
 │
 ├── index.html
 ├── style.css
