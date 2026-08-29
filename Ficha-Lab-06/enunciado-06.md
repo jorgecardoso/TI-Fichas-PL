@@ -70,6 +70,8 @@ Estrutura sugerida:
 
 # 2. Explorar o Box Model
 
+__Nota:__ Não use Flexbox nem Grid nesta ficha.
+
 Aplique aos cartões:
 
 ```css
