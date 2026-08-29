@@ -322,6 +322,8 @@ A aplicação deverá demonstrar:
 - utilização de classes CSS;
 - criação dinâmica de elementos.
 
+Screenshot exemplo:
+![Figura 1](../.assets/images/ficha5-screenshot.png)
 ---
 
 # Questões de Reflexão
