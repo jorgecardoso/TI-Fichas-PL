@@ -1,7 +1,6 @@
-# Tecnologias Web
-## Ficha Laboratorial 5: Manipulação do DOM
+# Ficha Laboratorial 5: Manipulação do DOM
 
-### Objetivos
+## Objetivos
 
 No final desta aula deverá ser capaz de:
 
@@ -28,7 +27,7 @@ Nesta ficha irá explorar o **DOM (Document Object Model)**, a representação d
 Crie uma pasta para esta ficha:
 
 ```text
-lab05/
+Ficha-Lab-05/
 │
 ├── index.html
 ├── style.css
@@ -49,15 +48,18 @@ Crie uma página contendo:
 Exemplo:
 
 ```html
-<h1 id="titulo">
+<h1>
     Tecnologias Web
 </h1>
 
-<p id="descricao">
+<p>
     Esta é uma página de exemplo.
 </p>
 
-<img id="foto" src="images/foto1.jpg" alt="Imagemrar Texto
+<img id="foto" src="images/foto1.jpg" alt="Foto...">
+
+<button id="btnTexto">
+Alterar Texto
 </button>
 
 <button id="btnCor">
@@ -76,12 +78,6 @@ Exemplo:
 Utilize JavaScript para selecionar os elementos da página.
 
 Experimente:
-
-```javascript
-document.getElementById()
-```
-
-e
 
 ```javascript
 document.querySelector()
@@ -306,12 +302,12 @@ Não é necessário guardar a informação após fechar o navegador.
 
 ---
 
-# Entrega
+# Resultado final
 
 A pasta deverá apresentar a seguinte estrutura:
 
 ```text
-lab05/
+Ficha-Lab-05/
 │
 ├── index.html
 ├── style.css

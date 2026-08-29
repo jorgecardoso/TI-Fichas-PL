@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>TI - Fichas Laboratório PL</title>
-  <link rel="stylesheet" href="/.assets/css/common.css">
   <link rel="stylesheet" href="/.assets/css/main.css">
+  <script src="./.assets/scripts/mainscript.js" defer></script>
 </head>
 
 <body>
@@ -80,35 +80,6 @@
       </ol>
     </div>
   </div>
-
-
-
-
-  <script src="/.scripts/.mainscript.js"></script>
-  <!--   <script>
-    let hrefs = document.querySelectorAll("ol li [href]").forEach(el=> {
-      let check = document.createElement('input');
-      check.type= 'checkbox';
-      el.parentElement.appendChild(check);
-      let key = el.getAttribute('href').replace(/\W/g, '');
-      fetch("/.service.php?key=" + key ).then(data=>{return data.text()}).then(val=>{
-        console.log(val.trim());
-        if (val.trim() === 'true') {
-          console.log(el)
-          el.parentElement.querySelector('input[type=checkbox]').checked=true;
-        }
-      })
-    });
-
-      let checkboxes = document.querySelectorAll('input[type=checkbox]').forEach(el=>{
-        el.addEventListener('input', function(evt){
-          console.log(el.checked);
-          let key = el.parentElement.querySelector("[href]").getAttribute('href').replace(/\W/g, '');
-          console.log(key);
-          fetch("/.service.php?key=" + encodeURI(key) + "&value=" + el.checked );
-        })
-      });
-    </script>-->
 </body>
 
 </html>
