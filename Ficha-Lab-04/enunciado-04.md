@@ -262,6 +262,8 @@ A página deverá:
 - apresentar uma mensagem personalizada;
 - utilizar JavaScript para processar a informação.
 
+Screenshot exemplo:
+![Figura 1](../.assets/images/ficha4-screenshot.png)
 ---
 
 # Questões de Reflexão
