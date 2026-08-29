@@ -1,6 +1,6 @@
 # Ficha Laboratorial 6: Layouts, Posicionamento e Classes CSS
 
-### Objetivos
+## Objetivos
 
 No final desta aula deverá ser capaz de:
 
@@ -28,10 +28,10 @@ O objetivo é explorar os conceitos de layout introduzidos na aula teórica.
 
 # Preparação
 
-Crie uma pasta para esta ficha:
+Crie os ficheiros para esta ficha:
 
 ```text
-lab06/
+Ficha-Lab-06/
 │
 ├── index.html
 ├── style.css
@@ -85,6 +85,7 @@ Exemplo:
     padding: 20px;
     margin: 15px;
     border: 1px solid #cccccc;
+    width: 200px;
 }
 ```
 
@@ -290,6 +291,8 @@ Sugestão:
 element.classList.toggle("oculto");
 ```
 
+__Nota:__ Existe um elemento HTML (https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details) que tem um comportamento semelhante e não precisa de JavaScript, mas neste exercício queremos treinar o uso de JavaScript.
+
 ---
 
 # 11. Menu Lateral
@@ -320,26 +323,13 @@ Utilize JavaScript para alternar entre:
 
 ---
 
-# Desafio
 
-Transforme a página numa pequena homepage institucional contendo:
-
-- menu lateral;
-- cartões informativos;
-- painel de informação expansível;
-- notificação fixa;
-- destaques visuais ativados através de JavaScript.
-
-Todo o comportamento deverá ser implementado através da manipulação de classes CSS.
-
----
-
-# Entrega
+# Resultado final
 
 A pasta deverá apresentar a seguinte estrutura:
 
 ```text
-lab06/
+Ficha-Lab-06/
 │
 ├── index.html
 ├── style.css
@@ -353,6 +343,9 @@ A página deverá demonstrar:
 - utilização de Position;
 - utilização de Overflow;
 - manipulação de classes CSS através de JavaScript.
+
+Screenshot exemplo:
+![Figura 1](../.assets/images/ficha6-screenshot.png)
 
 ---
 
