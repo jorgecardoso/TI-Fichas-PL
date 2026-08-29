@@ -33,6 +33,11 @@ Ficha-Lab-04/
 └── script.js
 ```
 
+__Nota:__ A partir de agora, que já sabe como criar manualmente um _esqueleto_ de um site, associando três ficheiros (`HTML`, `CSS` e `JavaScript`), pode agilizar este passo usando IA: 
+1. Abra o painel dos agentes de IA do lado direito
+2. Use o IAEdu (OpenAI GPT), ou outro chat de IA que tenha configurado no VSCode, e escreva uma prompt do género:
+    > Cria os 3 ficheiros html, css, e javascript para um site sem conteúdo, dentro da pasta Ficha-Lab-04.
+3. Verifique sempre o código resultante antes de continuar.
 ---
 
 # 1. Estrutura do Formulário
