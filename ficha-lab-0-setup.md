@@ -12,7 +12,7 @@ A funcionalidade do VSCode pode ser estendida através de _Extensões_. Nesta un
 1. Localize o ícone do painel de extensões
 ![Figura 1](.assets/images/vscode_toolbar_extensoes.PNG)
 2. Na barra de pesquisa escreva _Live Server_
-![Figura 2](.assets\images\vscode_liveserver.PNG)
+![Figura 2](.assets/images/vscode_liveserver.PNG)
 3. Clique no botão _Install_ (na imagem o botão não aparece porque a extensão já havia sido instalada)
 
 
@@ -45,11 +45,11 @@ git remote rename origin upstream
 
 ## 6. Configurar o acesso seguro (HTTPS) do servidor local
 1. Abrir o painel _Explorer_ do VSCode e depois expandir a pasta `ssh`:
-![Figura 3](.assets\images\vscode_explorer_ssh.png)
+![Figura 3](.assets/images/vscode_explorer_ssh.png)
 2. Abrir o ficheiro `workspace.code-workspace` no editor clicando uma vez no nome do ficheiro.
 3. Clicar com o botão direito do rato sobre o ficheiro `server.key`, que está dentro da pasta `ssh`, e escolher a opção `Copy Relative Path`
 4. No documento `workspace.code-workspace` substitua o caminho do campo `key` fazendo paste do caminho que copiou no passo anterior.
-![Figura 4](.assets\images\workspace_ssh_key_change.png)
+![Figura 4](.assets/images/workspace_ssh_key_change.png)
 5. Repita para o campo `cert`, copiando e colando o caminho do ficheiro `server.crt`
 6. Se o seu PC for Windows, duplique as barras invertidas `\` nos caminhos que acabou de colar. 
 __Nota:__ verifique que os valores dos caminhos têm aspas `"` no início e no fim tal como na imagem anterior.
@@ -58,10 +58,10 @@ __Nota:__ verifique que os valores dos caminhos têm aspas `"` no início e no f
 1. Clicar com o botão direito do rato sobre o ficheiro `index.html` na raiz do projeto (Explorer do VSCode)
 2. Seleccionar `Open with Live Server`
 3. O seu browser deverá abrir e deverá ver algo parecido com o seguinte:
-![Figura 5](.assets\images\vscode_liveserver_warning.png)
+![Figura 5](.assets/images/vscode_liveserver_warning.png)
 4. Clique em _Proceed_:
-![Figura 6](.assets\images\vscode_liveserver_warning_proceed.png)
+![Figura 6](.assets/images/vscode_liveserver_warning_proceed.png)
 5. Se tudo correu bem, deverá ver algo como:
-![Figura 7](.assets\images\vscode_index_preview.png)
+![Figura 7](.assets/images/vscode_index_preview.png)
 
 
