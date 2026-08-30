@@ -85,6 +85,7 @@ Utilize:
 ```css
 display: flex;
 ```
+__Nota:__ Guia visual Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ### Exercício
 

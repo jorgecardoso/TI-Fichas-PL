@@ -1,5 +1,5 @@
 
-# CSS Grid e Geração de Conteúdo com JavaScript
+# Ficha Laboratorial 8: CSS Grid e Geração de Conteúdo com JavaScript
 
 ## Objetivos
 
@@ -19,6 +19,20 @@ No final desta aula deverá ser capaz de:
 Pretende-se construir uma página de catálogo de produtos.
 
 A informação dos produtos será armazenada em JavaScript e apresentada através de uma grelha criada com CSS Grid.
+
+---
+
+# Preparação
+
+Crie os ficheiros para esta ficha:
+
+```text
+Ficha-Lab-08/
+│
+├── index.html
+├── style.css
+└── script.js
+```
 
 ---
 
@@ -74,6 +88,8 @@ grid-template-columns;
 gap;
 ```
 
+__Nota:__ Guia  Grid: https://css-tricks.com/complete-guide-css-grid-layout/
+
 ---
 
 ## Exercício 4
@@ -93,6 +109,7 @@ Produto A
 Descrição do produto.
 9.99€
 ```
+
 
 ---
 
@@ -302,22 +319,52 @@ Exemplo:
 
 ---
 
-# Checklist Final
+# Resultado final
 
-Verifique que o seu projeto contém:
+A pasta deverá apresentar a seguinte estrutura:
 
-- [ ] Utilização de CSS Grid.
-- [ ] Grelha com múltiplas colunas.
-- [ ] Cartão em destaque.
-- [ ] Utilização de arrays.
-- [ ] Utilização de ciclos.
-- [ ] Criação dinâmica de elementos HTML.
-- [ ] Aplicação dinâmica de classes CSS.
-- [ ] Array de objetos.
-- [ ] Catálogo apresentado através da grelha.
+```text
+Ficha-Lab-08/
+│
+├── index.html
+├── style.css
+└── script.js
+```
+
+A página deverá demonstrar:
+
+- Utilização de CSS Grid.
+- Grelha com múltiplas colunas.
+- Cartão em destaque.
+- Utilização de arrays.
+- Utilização de ciclos.
+- Criação dinâmica de elementos HTML.
+- Aplicação dinâmica de classes CSS.
+- Array de objetos.
+- Catálogo apresentado através da grelha.
+
+Screenshot exemplo:
+![Figura 1](../.assets/images/ficha8-screenshot.png)
 
 ---
 
-# Para a próxima aula
+# Questões de reflexão
 
-Na próxima aula iremos explorar Responsive Design e imagens responsivas, adaptando a interface a diferentes dimensões de ecrã.
+1. Qual é a vantagem de utilizar CSS Grid para apresentar um catálogo de produtos em vez de organizar os cartões apenas com margens ou `display: block`?
+
+2. O que acontece à grelha quando altera o valor de `grid-template-columns`? Compare, por exemplo, uma grelha com 2 colunas, 3 colunas e 4 colunas.
+
+6. Que impacto teria adicionar muitos produtos ao HTML manualmente? Que vantagens existem em gerar os cartões através de JavaScript?
+
+7. Como é que o array de objetos ajuda a organizar a informação dos produtos?
+
+8. Que partes do cartão são criadas pelo JavaScript e que partes são controladas pelo CSS?
+
+9. Porque é importante adicionar classes CSS aos elementos criados dinamicamente com JavaScript?
+
+10. Se quisesse alterar o aspeto de todos os cartões, faria essa alteração no JavaScript ou no CSS? Justifique.
+
+12. Como poderia adaptar a grelha para funcionar melhor em ecrãs pequenos, como telemóveis?
+
+14. Que problemas poderiam surgir se o nome de uma classe usado no JavaScript não correspondesse ao nome definido no CSS?
+
