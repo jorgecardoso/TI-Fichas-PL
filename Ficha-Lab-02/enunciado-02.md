@@ -287,7 +287,7 @@ A página deverá:
 - apresentar uma navegação funcional.
 
 Screenshot exemplo:
-![Figura 1](../.assets\images\screencapture-10-11-0-26-5500-Ficha-Lab-02-index-html-2026-08-28-23_29_57.png)
+![Figura 1](../.assets/images/screencapture-10-11-0-26-5500-Ficha-Lab-02-index-html-2026-08-28-23_29_57.png)
 
 ---
 
