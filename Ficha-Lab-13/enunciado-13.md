@@ -1,5 +1,4 @@
-# Ficha Lab 13
-# Integração Final: HTML, CSS e JavaScript
+# Ficha Laboratorial 13: Integração Final: HTML, CSS e JavaScript
 
 ## Objetivos
 
@@ -207,7 +206,7 @@ Adicione um filtro que permita visualizar apenas:
 
 ---
 
-# Checklist Final
+# Resultado final
 
 - [ ] Formulário funcional.
 - [ ] Criação dinâmica de tarefas.
@@ -222,15 +221,9 @@ Adicione um filtro que permita visualizar apenas:
 - [ ] Integração de dados externos.
 - [ ] Aplicação funcional integrada.
 
+Screenshot exemplo:
+![Figura 1](../.assets/images/ficha13-screenshot.png)
+
+
 ---
 
-# Conclusão
-
-Esta ficha consolida os principais conceitos abordados ao longo da unidade curricular:
-
-- HTML para estrutura;
-- CSS para apresentação;
-- JavaScript para comportamento;
-- Fetch e JSON para integração com dados externos.
-
-O resultado é uma pequena aplicação Web dinâmica construída apenas com tecnologias Web fundamentais.
