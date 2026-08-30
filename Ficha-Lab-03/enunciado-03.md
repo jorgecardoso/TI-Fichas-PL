@@ -318,7 +318,7 @@ A página deverá incluir:
 
 
 Screenshot exemplo:
-![Figura 1](../.assets\images\screencapture-10-11-0-26-5500-Ficha-Lab-03-index-html-2026-08-29-11_28_17.png)
+![Figura 1](../.assets/images/screencapture-10-11-0-26-5500-Ficha-Lab-03-index-html-2026-08-29-11_28_17.png)
 ---
 
 # Questões de Reflexão
