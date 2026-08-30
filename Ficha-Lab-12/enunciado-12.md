@@ -1,6 +1,6 @@
-## Ficha Laboratorial 12: JSON, Fetch e APIs Web
+# Ficha Laboratorial 12: JSON, Fetch e APIs Web
 
-### Objetivos
+## Objetivos
 
 No final desta aula deverá ser capaz de:
 
@@ -28,10 +28,10 @@ Nesta ficha irá explorar:
 
 # Preparação
 
-Crie uma pasta para esta ficha:
+Crie os ficheiros para esta ficha:
 
 ```text
-lab12/
+Ficha-Lab-12/
 │
 ├── index.html
 ├── style.css
@@ -114,10 +114,13 @@ Resultado esperado:
 
 # 4. Explorar um Documento JSON
 
-Crie um ficheiro:
+Crie um ficheiro na pasta desta ficha:
 
 ```text
-dados.json
+Ficha-Lab-12/
+│
+└── dados.json
+
 ```
 
 com o seguinte conteúdo:
@@ -130,7 +133,7 @@ com o seguinte conteúdo:
     },
     {
         "nome": "Miguel",
-        "curso": "LESI"
+        "curso": "LDM"
     }
 ]
 ```
@@ -180,7 +183,7 @@ Exemplo:
 
 ```text
 Ana - LEI
-Miguel - LESI
+Miguel - LDM
 ```
 
 ---
@@ -252,15 +255,26 @@ Quando os dados forem recebidos, remova essa mensagem.
 ---
 
 # 11. Filtrar Dados
+Crie um formulário simples no HTML, com um campo de input e um botão.
 
-Utilizando os utilizadores obtidos da API, apresente apenas:
+O carregamento de dados da API deverá acontecer apenas quando o utilizador pressionar o botão do formulário.
 
-- os nomes;
-- ou os websites.
+Além disso, deverá filtrar os resultados da API a converter em cartões usando o texto que o utilizador introduziu no campo de texto.
 
-### Exercício
+Por exemplo: 
+```text
++------------------+   ┌──────────────┐
+| Le               |   │   Procurar   │
++------------------+   └──────────────┘
+```
+Mostra apenas utilizadores cujo nome comece por "Le"
 
-Escolha uma propriedade e crie uma lista HTML com os respetivos valores.
+
+Explore as funções JavaScript sobre strings, para ajudar a filtrar:
+* [string].`startsWith()`: verifica se uma string começa com um texto específico.
+* [string].`endsWith()`: verifica se uma string termina com um texto específico.
+* [string].`includes()`: verifica se uma string contém um determinado texto.
+
 
 ---
 
@@ -277,12 +291,12 @@ A interface deverá ser construída inteiramente com HTML, CSS e JavaScript.
 
 ---
 
-# Entrega
+# Resultado final
 
 A pasta deverá apresentar a seguinte estrutura:
 
 ```text
-lab12/
+Ficha-Lab-12/
 │
 ├── index.html
 ├── style.css
@@ -298,6 +312,10 @@ A aplicação deverá demonstrar:
 - criação dinâmica de elementos HTML;
 - tratamento básico de erros.
 
+Screenshot exemplo:
+![Figura 1](../.assets/images/ficha12-screenshot.png)
+
+
 ---
 
 # Questões de Reflexão
@@ -310,6 +328,3 @@ A aplicação deverá demonstrar:
 
 ---
 
-# Objetivo da Ficha
-
-Compreender como aplicações Web modernas obtêm e apresentam informação proveniente de ficheiros JSON e serviços Web externos através da Fetch API.
