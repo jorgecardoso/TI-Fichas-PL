@@ -1,5 +1,4 @@
-# Ficha Lab 11
-# Objetos JavaScript e JSON
+# Ficha Laboratorial 11: Objetos JavaScript e JSON
 
 ## Objetivos
 
@@ -133,23 +132,7 @@ Sugestão:
 
 ## Exercício 8
 
-Crie uma variável contendo uma representação JSON de um curso.
-
-Exemplo:
-
-```json
-{
-    "nome": "Desenvolvimento Web",
-    "area": "Informática",
-    "duracao": 40
-}
-```
-
-Compare a sintaxe com a utilizada nos objetos JavaScript.
-
----
-
-## Exercício 9
+JSON é uma forma de representar dados em texto. Em vez de guardar um objeto JavaScript apenas na memória, podemos transformar esse objeto numa string JSON para o guardar, enviar ou partilhar entre aplicações.
 
 Utilize:
 
@@ -159,11 +142,32 @@ JSON.stringify()
 
 para converter um objeto JavaScript para JSON.
 
-Apresente o resultado na consola.
+Crie um objeto com a informação de um curso e faça `console.log()` do resultado.
+
+Exemplo:
+
+```javascript
+const curso = {
+    nome: "Desenvolvimento Web",
+    area: "Informática",
+    duracao: 40,
+    vagas: 20
+};
+
+console.log(JSON.stringify(curso));
+```
+
+Compare a sintaxe com a utilizada nos objetos JavaScript.
+
+Dica:
+
+- em JavaScript, as propriedades de um objeto podem ser escritas sem aspas;
+- em JSON, as chaves têm de estar entre aspas;
+- JSON representa dados em texto, não um objeto JavaScript em memória.
 
 ---
 
-## Exercício 10
+## Exercício 9
 
 Utilize:
 
@@ -175,60 +179,88 @@ para converter novamente o JSON para um objeto JavaScript.
 
 Verifique que as propriedades podem voltar a ser utilizadas normalmente.
 
+Exemplo:
+
+```javascript
+const jsonCurso = '{"nome":"Desenvolvimento Web","area":"Informática","duracao":40}';
+const objetoCurso = JSON.parse(jsonCurso);
+
+console.log(objetoCurso.nome);
+```
+
 ---
 
-# Parte 5. Integração
+# Parte 5. Integração com LocalStorage
 
 ## Exercício 11
 
-Crie um array de objetos JavaScript.
+Crie um array de objetos JavaScript com vários cursos.
 
-Converta esse array para JSON utilizando:
+Agora, guarde esse array no `localStorage` usando `JSON.stringify()`.
+
+Exemplo:
 
 ```javascript
-JSON.stringify()
+const cursos = [
+    { nome: "Desenvolvimento Web", area: "Informática", duracao: 40 },
+    { nome: "Design Gráfico", area: "Multimedia", duracao: 30 }
+];
+
+localStorage.setItem("cursos", JSON.stringify(cursos));
 ```
 
-Apresente o resultado formatado na consola.
+Depois, leia novamente os dados do `localStorage` e converta-os com `JSON.parse()`.
+
+Apresente o resultado na consola.
 
 ---
 
 ## Exercício 12
 
-Utilize os objetos originais para gerar dinamicamente uma lista ou grelha de cursos na página.
+Crie um formulário simples com três campos:
 
-Toda a informação apresentada deve ser obtida a partir dos objetos JavaScript.
+- nome;
+- área;
+- duração.
+
+Quando o utilizador clicar num botão:
+
+1. cria um objeto JavaScript com esses valores;
+2. guarda esse objeto num array;
+3. guarda o array no `localStorage` com `JSON.stringify()`;
+4. cria dinamicamente um cartão HTML com a informação do curso;
+5. limpa os campos do formulário.
+
+Ao carregar a página, o script deve:
+
+- ler os dados guardados em `localStorage`;
+- converter com `JSON.parse()`;
+- reconstruir a lista de cartões HTML automaticamente.
+
+Assim, a informação fica persistente mesmo depois de recarregar a página.
+
+```javascript
+const dados = localStorage.getItem("cursos");
+const cursosGuardados = JSON.parse(dados);
+```
+
+__Nota:__ Às vezes é útil _limpar_ a localStorage do browser para a página que estamos a desenvolver. Pode fazer isso abrindo a consola JavaScript e escrevendo `localStorage.clear()`
 
 ---
 
-# Desafio
+# Resultado final
 
-Adicione uma propriedade:
+A pasta deverá apresentar a seguinte estrutura:
 
-```javascript
-modulos
+```text
+Ficha-Lab-09/
+│
+├── index.html
+├── style.css
+└── script.js
 ```
 
-contendo um array de módulos do curso.
-
-Exemplo:
-
-```javascript
-{
-    nome: "Desenvolvimento Web",
-    modulos: [
-        "HTML",
-        "CSS",
-        "JavaScript"
-    ]
-}
-```
-
-Apresente também esses módulos na página.
-
----
-
-# Checklist Final
+A página deverá demonstrar:
 
 - [ ] Criação de objetos JavaScript.
 - [ ] Utilização de arrays de objetos.
@@ -238,3 +270,8 @@ Apresente também esses módulos na página.
 - [ ] Conversão para JSON com `JSON.stringify()`.
 - [ ] Conversão para objetos com `JSON.parse()`.
 - [ ] Geração de conteúdo a partir de dados
+
+
+Screenshot exemplo:
+![Figura 1](../.assets/images/ficha11-screenshot.png)
+
