@@ -1,4 +1,4 @@
-# Responsive Design e Imagens Responsivas
+# Ficha Laboratorial 9: Responsive Design e Imagens Responsivas
 
 ## Objetivos
 
@@ -22,6 +22,20 @@ Pretende-se agora adaptar esse catálogo para funcionar corretamente em:
 - telemóveis;
 - tablets;
 - computadores.
+
+---
+
+# Preparação
+
+Copie os ficheiros da Ficha-Lab-08 para esta ficha:
+
+```text
+Ficha-Lab-09/
+│
+├── index.html
+├── style.css
+└── script.js
+```
 
 ---
 
@@ -75,18 +89,43 @@ vh
 
 ## Exercício 4
 
-Adicione uma imagem a cada produto do catálogo.
+Adicione uma imagem a cada produto do catálogo (se não o tiver já feito na ficha anterior).
 
 ---
 
 ## Exercício 5
 
-Torne as imagens responsivas para que:
+Torne as imagens responsivas em HTML, seguindo as recomendações da MDN sobre imagens responsivas:
 
-- nunca ultrapassem a largura disponível;
-- mantenham as proporções originais.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images
 
-Teste o comportamento para diferentes larguras de ecrã.
+O objetivo é que:
+
+- as imagens nunca ultrapassem a largura disponível do seu conteúdo;
+- mantenham as proporções originais;
+- o browser escolha a imagem mais adequada consoante a resolução e o tamanho do ecrã.
+
+Utilize técnicas como:
+
+- `srcset` para indicar várias versões da mesma imagem;
+- `sizes` para definir o espaço que a imagem ocupa no layout;
+- `width` e `height` para preservar proporções;
+- `max-width: 100%` e `height: auto` no CSS, quando necessário.
+
+Exemplo de estrutura aconselhada:
+
+```html
+<img
+  src="imagem-800.jpg"
+  srcset="imagem-400.jpg 400w, imagem-800.jpg 800w, imagem-1200.jpg 1200w"
+  sizes="(max-width: 768px) 100vw, 33vw"
+  alt="Produto em destaque"
+  width="800"
+  height="600"
+>
+```
+
+Teste o comportamento para diferentes larguras de ecrã (por exemplo 320px, 768px, 1024px e 1440px).
 
 ---
 
@@ -130,6 +169,7 @@ Utilize CSS Grid ou Flexbox para que, em dispositivos desktop, a barra lateral p
 ---
 
 # Parte 6. Objetos JavaScript
+__Nota:__ Caso não tenha feito isto na ficha anterior.
 
 ## Exercício 10
 
@@ -198,7 +238,20 @@ e adapte a grelha para determinar automaticamente o número de colunas disponív
 
 ---
 
-# Checklist Final
+
+# Resultado final
+
+A pasta deverá apresentar a seguinte estrutura:
+
+```text
+Ficha-Lab-09/
+│
+├── index.html
+├── style.css
+└── script.js
+```
+
+A página deverá demonstrar:
 
 - [ ] Imagens responsivas.
 - [ ] Layout mobile-first.
@@ -208,3 +261,6 @@ e adapte a grelha para determinar automaticamente o número de colunas disponív
 - [ ] Utilização de objetos JavaScript.
 - [ ] Conteúdo gerado dinamicamente.
 - [ ] Testes realizados em múltiplas resoluções.
+
+Screenshot exemplo:
+![Figura 1](../.assets/images/ficha9-screenshot.png)
