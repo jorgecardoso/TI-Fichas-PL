@@ -304,3 +304,108 @@ Screenshot exemplo:
 # Objetivo da Ficha
 
 Aprender a estruturar páginas Web utilizando HTML semântico e melhorar a sua apresentação através de CSS, criando conteúdos mais organizados, legíveis e fáceis de manter.
+
+
+
+
+---
+---
+# Exercícios Extra
+---
+---
+
+
+
+
+
+## Ex 1
+
+Crie um novo documento HTML e copie o código seguinte para o corpo do documento. Associe uma folha de estilos CSS e, sem modificar o HTML, aplique um estilo ao elemento <span> de forma a conseguir o resultado da Figura 1.
+
+```html
+<p>There is a very <span>important</span> word in this sentence</p>
+```
+
+---
+![Figura 1](/.assets/images/extra02fig1.png)
+Figura 1
+___ 
+
+## Ex 2
+Crie um novo documento HTML e copie o código seguinte para o corpo do documento. Associe uma folha de estilos CSS e, sem modificar o HTML, aplique um estilo de forma a colocar a primeira frase a bold.
+
+```html
+<div id="first">
+	<p>First sentence.</p>
+</div>
+<div>
+	<p>Second sentence.</p>
+</div>
+```
+
+---
+![Figura 2](/.assets/images/extra02fig2.png)
+Figura 2
+___ 
+
+
+## Ex 3
+Crie um novo documento HTML e copie o código seguinte para o corpo do documento. Associe uma folha de estilos CSS. 
+- Aplique estilos CSS para emular o resultado da Figura 3.
+   - Note que o HTML já tem classes associadas aos parágrafos.
+- Pense sobre qual o melhor selector CSS para garantir flexibilidade do código.
+
+```html
+<p class="note">Note: Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+<p class="warning">Warning: Etiam ultricies varius justo, sit amet elementum ligula commodo...</p>
+
+<p class="error">Error: Nam vel aliquet dolor. In est tellus, gravida condimentum est ut, gravida finibus urna...</p>
+
+<p>Etiam urna turpis, imperdiet at ante et, iaculis porta nisl... </p>
+
+<p>Curabitur venenatis facilisis erat id convallis... </p>
+```
+
+---
+![Figura 3](/.assets/images/extra02fig3.png)
+Figura 3
+___ 
+
+## Ex 4
+Menus horizontais podem ser criados de muitas formas. Neste exercício usamos uma técnica que consiste numa sequência de elementos `<span>` distribuídos horizontalmente.
+
+Tente atingir o resultado da Figura 4. 
+- Crie um novo documento HTML e copie o código seguinte para o corpo do documento.
+- Associe uma folha de estilos CSS e copie o CSS seguinte para o documento.
+- Parte do trabalho está feito no CSS. Implemente o resto do código CSS (cores de fundo, reagir ao “hover” e “active” pseudo-classes, centrar o texto, etc. Pode precisar das seguintes propriedades CSS:
+  - `line-height`
+  - `text-decoration`
+  - `font-size`
+  - `color`
+- A reacção ao _hover_ e _active_ deve ser a alteração da cor de fundo.
+  
+HTML:
+```html
+<nav>
+  <span><a href="#">Home</a></span><span><a href="#">Products</a></span><span><a hreF="#">Pricing</a></span><span><a href="#">Help</a></span>
+</nav>
+```
+**Nota: Neste exercício, é importante manter o HTML tal como é apresentado acima. Não introduza espaços entre os elementos.**
+
+CSS:
+```css
+nav>span {
+   display: inline-block;
+   width: 20%;
+
+   margin-right: calc(20% / 3);
+}
+nav>span:last-child {
+   margin-right: 0;
+}
+```
+
+---
+![Figura 4](/.assets/images/extra02fig4.png)
+____
