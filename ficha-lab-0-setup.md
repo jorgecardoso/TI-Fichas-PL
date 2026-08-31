@@ -47,7 +47,7 @@ git remote rename origin upstream
 1. Abrir o painel _Explorer_ do VSCode e depois expandir a pasta `ssh`:
 ![Figura 3](.assets/images/vscode_explorer_ssh.png)
 2. Abrir o ficheiro `workspace.code-workspace` no editor clicando uma vez no nome do ficheiro.
-3. Clicar com o botão direito do rato sobre o ficheiro `server.key`, que está dentro da pasta `ssh`, e escolher a opção `Copy Relative Path`
+3. Clicar com o botão direito do rato sobre o ficheiro `server.key`, que está dentro da pasta `ssh`, e escolher a opção `Copy Path`
 4. No documento `workspace.code-workspace` substitua o caminho do campo `key` fazendo paste do caminho que copiou no passo anterior.
 ![Figura 4](.assets/images/workspace_ssh_key_change.png)
 5. Repita para o campo `cert`, copiando e colando o caminho do ficheiro `server.crt`
