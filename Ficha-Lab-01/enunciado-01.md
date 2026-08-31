@@ -246,3 +246,88 @@ Compreender que uma aplicação Web resulta da combinação de três componentes
 - **JavaScript**: comportamento e interação.
 
 Esta ideia será aprofundada ao longo de toda a unidade curricular.
+
+---
+---
+# Exercícios Extra
+---
+---
+
+## Ex 0
+Crie um documento HTML `ex0.html` dentro da pasta `Ficha-PL-1HTML-01-Elementos-basicos`.
+
+Escreva a estrutura básica do HTML (head, body). 
+
+Use elementos HTML para escrever um pequeno documento composto por:
+1. título (`h1`)
+2. um parágrafo (`p`)
+3. uma secção (`h2`)
+4. outro parágrafo (`h3`)
+
+(Use o gerador de lorem ipsum para o texto dos parágrafos https://www.lipsum.com/)
+
+
+## Ex 1
+Edite o documento HTML `ex1.html` e crie uma estrutura semelhante à da Figura 1.  (Use o gerador de lorem ipsum para o texto dos parágrafos https://www.lipsum.com/)
+
+Responda no documento `respostas.txt`:
+
+1. Que elementos deve usar para o título do documento? 
+2. E para cada uma das secções e sub-secções? 
+3. E os parágrafos dentro das secções?
+4. Qual o título da página no tab do browser? 
+5. Como pode mudar o título que surge no tab/janela do browser? 
+ 
+![Figura 1](/.assets/images/extra01fig1.png)
+Figura 1.
+
+
+## Ex 2
+Cole o HTML seguinte no `<body>` do documento do ficheiro `ex4.html` (terá de escrever o resto do HTML do `<head>` e altere-o de forma a que cada frase esteja numa linha diferente (Figura 2).
+
+
+```html
+<h1>Lorem Ipsum</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet massa id enim posuere congue. Pellentesque venenatis lobortis libero at varius. Nullam sit amet sapien at arcu porta placerat eget sed metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ac felis eu libero eleifend commodo. In at varius tellus. Vivamus at sollicitudin diam, sed consectetur ipsum. Proin maximus nisi est, nec porttitor est lacinia vel. Vivamus sagittis sed ante eget finibus. Ut euismod, libero vitae varius blandit, tortor est iaculis magna, ut lobortis arcu nisi eu mi. Cras tempus justo a purus dapibus faucibus. In hac habitasse platea dictumst. Suspendisse eleifend malesuada libero sit amet pretium.</p>
+```
+
+![Figura 2](/.assets/images/extra01fig2.png)
+Figura 2
+
+## Ex 3
+Transforme as palavras seguintes numa lista HTML: `Blue Orange Black White Brown Red Green Yellow Cyan` (Figura 3.1).
+
+- Adicione uma sub-lista à entrada “Blue” (Figura 3.2)
+
+Responda no documento `respostas.txt`:
+1. A lista da Figura 3.1 é uma lista ordenada (`<ol>`), ou uma lista não ordenada (`<ul>`)?
+
+
+
+![Figura 3.1](/.assets/images/extra01fig3.1.png)
+Figura 3.1
+
+
+![Figura 3.2](/.assets/images/extra01fig3.2.png)
+Figura 3.2
+
+
+
+## Ex 4
+
+Observe o diagrama da Figura 4.
+
+![](/.assets/images/extra01fig4.svg)
+Figura 4
+
+- O que representa o diagrama?
+- Crie um documento no ficheiro `ex2.html` que tenha a estrutura de elementos HTML representada na Figura 1. Os elementos das folhas podem estar vazios (não precisa de adicionar conteúdo). Por exemplo para representar um dos `<li>` poderia simplesmente escrever `<li></li>`.
+
+
+## Ex 5
+Imagine que tinha de implementar uma estrutura HTML para a informação mostrada na Figura 5 (tirada de https://www.jn.pt/artes.html). 
+- Que elementos contentores HTML usaria?
+- Crie um documento HTML que ilustre a estrutura que usaria (use imagens fictícias). Não se preocupe com o aspecto visual, apenas com a estrutura interna da informação. Escreva o resultado no documento `ex5.html`.
+
+![Figura 5](/.assets/images/extra01fig5.png)
+Figura 5
