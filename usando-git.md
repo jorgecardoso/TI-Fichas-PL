@@ -2,7 +2,7 @@
 
 Este guia explica como deves usar o Git para guardar o teu progresso, enviar alterações para o repositório remoto e recuperar trabalho caso algo corra mal.
 
-Assume-se que já criaste o teu repositório em `git.dei.uc.pt` com base neste projeto.
+Assume-se que já criaste o teu repositório em `git.dei.uc.pt` com base no documento [criar-repositorio-git-pessoal.md](criar-repositorio-git-pessoal.md)
 
 ## O que é o Git
 

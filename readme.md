@@ -21,6 +21,7 @@ A organização principal do projeto é a seguinte:
 ```text
 TI-Fichas-PL/
 ├── ficha-lab-0-setup.md
+├── criar-repositorio-git-pessoal.md
 ├── lista-enunciados-fichas.md
 ├── usando-git.md
 ├── index.html
@@ -75,6 +76,12 @@ O ficheiro:
 - [usando-git.md](usando-git.md)
 
 explica como deves usar o Git durante o desenvolvimento do teu trabalho.
+
+Para além deste guia, também existe o documento:
+
+- [criar-repositorio-git-pessoal.md](criar-repositorio-git-pessoal.md)
+
+que mostra como criar um repositório Git pessoal. Este é um bom hábito de organização e segurança para o teu trabalho, mas não é obrigatório nesta disciplina usar o Git para acompanhar ou entregar as fichas. O uso do Git pode ser útil para guardar o teu progresso e para partilhar código com o docente ou com o teu grupo, mas as atividades da unidade curricular podem ser realizadas sem depender deste sistema.
 
 Lê este ficheiro para saberes como:
 
