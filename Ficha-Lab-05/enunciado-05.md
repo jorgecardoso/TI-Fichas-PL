@@ -339,3 +339,64 @@ Screenshot exemplo:
 # Objetivo da Ficha
 
 Compreender como o JavaScript pode manipular a estrutura de uma página Web através do DOM, permitindo alterar conteúdo, estilos e elementos em resposta às ações do utilizador.
+
+
+
+
+
+
+
+
+
+---
+---
+# Exercícios Extra
+---
+---
+
+
+
+
+
+
+
+
+## Ex 1
+
+Observe o código HTML do ficheiro `ex1.html` na pasta `ex1`.
+- Adicione um script JavaScript:
+  - Crie um ficheiro `ex1.js` dentro da pasta `ex1`
+  - Faça a "ligação" entre o HTML e o JavaScript incluindo o elemento `<script src="ex1.js"></script>` antes do fim do `<body>`.
+
+No script que acabou de adicionar, escreva código que:
+1. Modifique o conteúdo da div#one para: "This is a div".
+2. Modifique o conteúdo da div#two para: "This is a `<div>`".
+
+
+**Nota: o script não precisa de ser interactivo. As modificações podem ocorrer logo que a página é carregada pelo browser.**
+
+
+
+
+## Ex 3
+Observe o conteúdo dos ficheiros na pasta `ex3`.
+Adicione JavaScript de forma a que quando o *utilizador clicar*:
+
+1. No botão `One`, o conteúdo da div#one seja modificado para: "This is a div".
+2. No botão `Two`, o conteúdo da div#two seja modificado para: "This is a `<div>`".
+
+**Nota: Consegue fazer com que os botões funcionem como *toggle*: ou seja voltando a clicar, se desfaça a modificação**
+
+
+## Ex 4
+Observe o código da pasta `ex4`. Usando JavaScript faça com que um clique nos botões tenha como resultado o seguinte:
+1. (Botão 1) Adicione um elemento `<span>` vazio dentro da `div#one`
+2. (Botão 2) Adicione um link para `http://uc.pt` dentro da `div#two`.
+3. (Botão 3) Remova o elemento `<span>` da div#three.
+
+## Ex 5
+Observe o código da pasta `ex5`. Usando JavaScript:
+
+1. Adicione um listener de clique à `div#one`. Quando clicada, a propriedade CSS `left` da `div#one` deve ser alterada para `200px`.
+2. Adicione um listener de `mouseenter` à `div#two`. Quando o cursor do rato entrar na div, deve alterar o seu fundo para vermelho.
+3. Adicione também um listener de `mouseleave` para reverter o efeito.
