@@ -368,3 +368,6 @@ Screenshot exemplo:
 
 14. Que problemas poderiam surgir se o nome de uma classe usado no JavaScript não correspondesse ao nome definido no CSS?
 
+## Exercícios extras sugeridos
+- [OutrosExercicios/Ficha-PL-2CSS-07-Grid-and-Responsive-Web-Design/enunciado.md](/OutrosExercicios/Ficha-PL-2CSS-07-Grid-and-Responsive-Web-Design/enunciado.md): Ex 2, Ex 3, Ex 4, Ex 5
+- [OutrosExercicios/Ficha-PL-3JavaScript-02/enunciado.md](/OutrosExercicios/Ficha-PL-3JavaScript-02/enunciado.md): Ex 3

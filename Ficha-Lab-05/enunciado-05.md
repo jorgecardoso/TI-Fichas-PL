@@ -339,3 +339,8 @@ Screenshot exemplo:
 # Objetivo da Ficha
 
 Compreender como o JavaScript pode manipular a estrutura de uma página Web através do DOM, permitindo alterar conteúdo, estilos e elementos em resposta às ações do utilizador.
+
+
+## Exercícios extras sugeridos
+- [OutrosExercicios/Ficha-PL-3JavaScript-01/enunciado.md](/OutrosExercicios/Ficha-PL-3JavaScript-01/enunciado.md): Ex 1, Ex 3, Ex 4, Ex 5
+- [OutrosExercicios/Ficha-PL-3JavaScript-02/enunciado.md](/OutrosExercicios/Ficha-PL-3JavaScript-02/enunciado.md): Ex 2

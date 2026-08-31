@@ -328,3 +328,7 @@ Screenshot exemplo:
 
 ---
 
+
+## Exercícios extras sugeridos
+- [OutrosExercicios/Ficha-PL-3JavaScript-04/enunciado.md](/OutrosExercicios/Ficha-PL-3JavaScript-04/enunciado.md): Ex 1, Ex 2, Ex 3
+- [OutrosExercicios/Ficha-PL-3JavaScript-03/enunciado.md](/OutrosExercicios/Ficha-PL-3JavaScript-03/enunciado.md): Ex 3

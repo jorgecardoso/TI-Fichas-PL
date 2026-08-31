@@ -246,3 +246,8 @@ Compreender que uma aplicação Web resulta da combinação de três componentes
 - **JavaScript**: comportamento e interação.
 
 Esta ideia será aprofundada ao longo de toda a unidade curricular.
+
+
+## Exercícios extras sugeridos
+- [/OutrosExercicios/Ficha-PL-1HTML-01-Elementos-basicos/enunciado.md](/OutrosExercicios/Ficha-PL-1HTML-01-Elementos-basicos/enunciado.md): Ex 0, Ex 1, Ex 4, Ex 5
+- [/OutrosExercicios/Ficha-PL-1HTML-02-Hierarquia-de-elementos/enunciado.md](/OutrosExercicios/Ficha-PL-1HTML-02-Hierarquia-de-elementos/enunciado.md): Ex 2, Ex 5

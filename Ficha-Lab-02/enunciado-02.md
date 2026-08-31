@@ -304,3 +304,8 @@ Screenshot exemplo:
 # Objetivo da Ficha
 
 Aprender a estruturar páginas Web utilizando HTML semântico e melhorar a sua apresentação através de CSS, criando conteúdos mais organizados, legíveis e fáceis de manter.
+
+
+## Exercícios extras sugeridos
+- [OutrosExercicios/Ficha-PL-2CSS-01-CSS-Intro/enunciado.md](/OutrosExercicios/Ficha-PL-2CSS-01-CSS-Intro/enunciado.md): Ex 1, Ex 2, Ex 4, Ex 5
+- [OutrosExercicios/Ficha-PL-2CSS-02-Unidades/enunciado.md](/OutrosExercicios/Ficha-PL-2CSS-02-Unidades/enunciado.md): Ex 1, Ex 2

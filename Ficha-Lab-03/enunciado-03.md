@@ -334,3 +334,6 @@ Screenshot exemplo:
 # Objetivo da Ficha
 
 Aprender a integrar imagens e conteúdos multimédia em páginas Web, garantindo uma apresentação visual adequada, acessível e adaptável a diferentes dispositivos.
+
+## Exercícios extras sugeridos
+- [OutrosExercicios/Ficha-PL-1HTML-03-Elementos-de-media/enunciado.md](/OutrosExercicios/Ficha-PL-1HTML-03-Elementos-de-media/enunciado.md): Ex 0, Ex 1, Ex 2, Ex 5, Ex 6

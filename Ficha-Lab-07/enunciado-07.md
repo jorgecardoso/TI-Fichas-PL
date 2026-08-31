@@ -346,3 +346,6 @@ Screenshot exemplo:
 
 ---
 
+
+## Exercícios extras sugeridos
+- [OutrosExercicios/Ficha-PL-2CSS-06-Flexbox/enunciado.md](/OutrosExercicios/Ficha-PL-2CSS-06-Flexbox/enunciado.md): Ex 0, Ex 1, Ex 2, Ex 3

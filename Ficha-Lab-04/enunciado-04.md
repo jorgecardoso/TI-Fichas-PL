@@ -284,3 +284,6 @@ Screenshot exemplo:
 # Objetivo da Ficha
 
 Compreender como recolher informação introduzida pelo utilizador e utilizar JavaScript para processar essa informação, produzindo páginas Web interativas e personalizadas.
+
+## Exercícios extras sugeridos
+- [OutrosExercicios/Ficha-PL-1HTML-04-Forms/enunciado.md](/OutrosExercicios/Ficha-PL-1HTML-04-Forms/enunciado.md): Ex 1, Ex 3, Ex 4, Ex 5, Ex 6
