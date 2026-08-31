@@ -364,3 +364,7 @@ Screenshot exemplo:
 # Objetivo da Ficha
 
 Aprender a construir layouts mais ricos e componentes de interface reutilizáveis através da combinação de HTML, CSS intermédio e JavaScript para manipulação de classes e estados visuais.
+
+## Exercícios extras sugeridos
+- [OutrosExercicios/Ficha-PL-2CSS-04-Posicionamento/enunciado.md](/OutrosExercicios/Ficha-PL-2CSS-04-Posicionamento/enunciado.md): Ex 1, Ex 3, Ex 5
+- [OutrosExercicios/Ficha-PL-2CSS-08/enunciado.md](/OutrosExercicios/Ficha-PL-2CSS-08/enunciado.md): Ex 1, Ex 2

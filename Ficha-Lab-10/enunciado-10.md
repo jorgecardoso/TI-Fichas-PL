@@ -313,3 +313,6 @@ Screenshot exemplo:
 ![Figura 1](../.assets/images/ficha10-screenshot.png)
 
 
+## Exercícios extras sugeridos
+- [OutrosExercicios/Ficha-PL-2CSS-03-Transicoes/enunciado.md](/OutrosExercicios/Ficha-PL-2CSS-03-Transicoes/enunciado.md): Ex 1, Ex 2, Ex 3
+- [OutrosExercicios/Ficha-PL-2CSS-05-Animacoes/enunciado.md](/OutrosExercicios/Ficha-PL-2CSS-05-Animacoes/enunciado.md): Ex 0, Ex 1, Ex 2

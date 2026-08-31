@@ -275,3 +275,6 @@ A página deverá demonstrar:
 Screenshot exemplo:
 ![Figura 1](../.assets/images/ficha11-screenshot.png)
 
+
+## Exercícios extras sugeridos
+- [OutrosExercicios/Ficha-PL-3JavaScript-03/enunciado.md](/OutrosExercicios/Ficha-PL-3JavaScript-03/enunciado.md): Ex 0, Ex 1, Ex 2

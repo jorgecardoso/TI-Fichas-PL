@@ -264,3 +264,7 @@ A página deverá demonstrar:
 
 Screenshot exemplo:
 ![Figura 1](../.assets/images/ficha9-screenshot.png)
+
+
+## Exercícios extras sugeridos
+- [OutrosExercicios/Ficha-PL-2CSS-07-Grid-and-Responsive-Web-Design/enunciado.md](/OutrosExercicios/Ficha-PL-2CSS-07-Grid-and-Responsive-Web-Design/enunciado.md): Ex 0, Ex 3, Ex 4, Ex 5, Ex 6
