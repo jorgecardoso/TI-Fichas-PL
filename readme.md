@@ -9,8 +9,11 @@ Deves começar por ler e seguir o ficheiro de configuração inicial. Depois, po
 Antes de começares qualquer ficha, abre e segue as instruções de:
 
 - [ficha-lab-0-setup.md](ficha-lab-0-setup.md)
+- [configurar-iaedu.md](configurar-iaedu.md)
 
 Este ficheiro explica a preparação inicial do ambiente de trabalho, incluindo a utilização do Visual Studio Code e os passos necessários para conseguires visualizar e testar os exercícios.
+
+O documento [configurar-iaedu.md](configurar-iaedu.md) explica como configurar a extensão de chat IA IAEdu no Visual Studio Code.
 
 Só deves avançar para as fichas de laboratório depois de confirmares que o setup está concluído.
 
