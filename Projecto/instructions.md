@@ -1,75 +1,109 @@
-# Instruções  
+# Instruções
 
-Nestas instruções são apenas apresentados os detalhes relativos à implementação HTML/CSS/JavaScript/PHP.
+O enunciado completo do projeto está disponível aqui:
+[https://docs.google.com/document/d/1OG1i7ak_IoVNzZZjc85_XYWCorovMWFavUQ8N4W7gzo/edit?usp=sharing](https://docs.google.com/document/d/1OG1i7ak_IoVNzZZjc85_XYWCorovMWFavUQ8N4W7gzo/edit?usp=sharing)
 
-Leia o enunciado completo para conhecer como deve documentar o seu trabalho a entregar em cada meta:
-[https://docs.google.com/document/d/1FcOeSfvjo6uAWLEoiHci_H7JTt36SSj28O_BbtC5HQA/edit?usp=sharing](https://docs.google.com/document/d/18p9buETGcIQaSorqEAPGYLLHKWo0Cgzw70zSgl1lBsE/edit?usp=sharing)
+Este documento não repete o enunciado pelo que é essencial começar por o ler. 
+
+Em vez disso, pretende dar algumas orientações práticas sobre boa organização e desenvolvimento de um website, especialmente para quem está a fazer o primeiro contacto com HTML, CSS e JavaScript.
+
+Para complementar estas ideias, podem consultar também a seguinte referência:
+[MDN - Organizing your CSS](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing)
+
+---
+
+# Organização de um website
+
+Um projeto de website deve ser organizado de forma clara e previsível. Isso facilita a manutenção, a leitura do código e a evolução do trabalho ao longo do projeto.
+
+## Estrutura recomendada
+
+Uma organização simples e útil pode ser a seguinte:
+
+```text
+projecto/
+├── index.html
+├── sobre.html
+├── servicos.html
+├── contactos.html
+├── assets/
+│   ├── imagens/
+│   │   ├── hero.jpg
+│   │   ├── equipa/
+│   │   └── produtos/
+│   ├── videos/
+│   ├── icones/
+│   └── fontes/
+├── css/
+│   ├── base.css
+│   ├── layout.css
+│   ├── componentes.css
+│   └── responsivo.css
+├── js/
+│   ├── main.js
+│   ├── menu.js
+│   └── faq.js
+├── data/
+│   └── dados.json
+└── README.md
+```
+
+Esta organização ajuda a separar diferentes tipos de recursos e evita que todos os ficheiros fiquem misturados numa única pasta.
+
+## Boas práticas importantes
+- A página principal (de entrada) no site deve sempre ser chamada de `index.html`
+- Use nomes de ficheiros simples, sem espaços, acentos ou caracteres especiais.
+- Os nomes dos ficheiros devem ser significativos: em vez de pagina1.html, prefira nomes como inicio.html, sobre.html, servicos.html ou contacto.html.
+- Mantenha a estrutura semântica do HTML: use header, nav, main, section, article, footer, etc.
+- Separe o CSS em ficheiros por função, em vez de criar um único ficheiro gigante.
+- Use classes com nomes claros e consistentes, por exemplo: .menu, .hero, .card, .faq.
+- Evite repetir regras idênticas em vários lugares.
+- Guarde imagens e vídeos em pastas específicas e use dimensões adequadas ao objetivo da página.
+- Quando cria um website responsivo, pense primeiro no mobile e depois adapte para ecrãs maiores.
+
+> Importante: um ficheiro como pagina1.html pode ser confuso e pouco descritivo. O ideal é usar nomes que descrevam claramente o conteúdo ou a função da página.
+
+---
+
+# Estrutura do CSS
+
+Para um projeto mais organizado, é útil dividir o CSS por categorias:
+
+- base.css: reset, tipografia base, variáveis, cores, estilos gerais.
+- layout.css: estrutura da página, grid/flexbox, espaçamento, alinhamentos.
+- componentes.css: botões, cards, menus, formulários, banners, listas, FAQ.
+- responsivo.css: media queries e ajustes específicos para tablet e telemóvel.
+
+Se o projeto for pequeno, pode usar apenas alguns ficheiros em vez de muitos. O importante é manter uma lógica clara e evitar colocar tudo no mesmo CSS.
+
+Também é boa prática:
+
+- definir um conjunto de estilos base e reutilizáveis,
+- usar classes e não estilos inline,
+- manter um padrão uniforme para margens, espaçamento e tipografia,
+- testar o site em diferentes larguras de ecrã.
+
+---
+
+# Processo recomendado de desenvolvimento
+
+Para alunos que estão a começar no desenvolvimento web, o processo mais útil costuma ser o seguinte:
+
+1. Definir o objetivo do website e o tema.
+2. Organizar a informação em páginas e secções.
+3. Criar a estrutura HTML com conteúdo e semântica adequados.
+4. Fazer a primeira versão visual com CSS básico.
+5. Melhorar o layout com Flexbox e/ou Grid.
+6. Adicionar interatividade com JavaScript.
+7. Validar o HTML e o CSS e testar em diferentes dispositivos.
+
+Este processo ajuda a evitar começar pelo visual sem primeiro ter a estrutura correta. Em projetos web, a organização do conteúdo e da informação costuma ser tão importante como o design.
 
 
-# Meta 1 - Planeamento e HTML
-Nesta primeira meta pretende-se que apresente:
-1. o tema do website que escolheu implementar,
-2. uma pesquisa websites que lhe sirvam de inspiração,
-3. diagrama com estrutura de informação geral do website,
-4. esboços do layout da página mais complexa (em termos de informação),
-5. implementação HTML da página mais complexa,
+# Recomendação final
 
+O objetivo do projeto não é apenas “fazer páginas bonitas”, mas sim aprender a organizar bem um site, a separar responsabilidade entre HTML, CSS e JavaScript, e a desenvolver um processo de trabalho claro.
 
-Adicione na pasta Projecto, um ficheiro HTML relativo à página de maior complexidade de informação do seu site (de entre as que escolheu implementar). 
+Uma boa prática é começar sempre pela estrutura, depois pelo estilo, e só no fim pela interatividade. Assim, o projeto fica mais fácil de entender, de testar e de melhorar.
 
-Implemente o HTML dessa página atendendo apenas à estrutura da informação. Tenha em atenção o uso correcto dos elementos semânticos e a correcção sintática e semântica dos elementos que utilizar. Ao incluir as imagens, garanta que as coloca numa sub-pasta dentro do projecto e que atende às boas práticas de inclusão de imagens. 
-
-Não se preocupe com o resultado visual nesta fase. Nesta entrega, o projecto NÃO pode conter CSS absolutamente nenhum! Valide o seu HTML com a ferramenta https://validator.w3.org/. 
-
-
-
-# Meta 2 - CSS
-Nesta segunda meta pretende-se que apresente:
-1. o seu site (3 páginas) estilizado com CSS externo,
-2. um site com conteúdos de media (imagem e vídeo) adaptados às necessidades do site,
-3. uma página responsiva com adaptações para dispositivos móveis,
-4. ficheiros HTML e CSS bem estruturados e sintacticamente correctos,
-
-
-Implemente (HTML e CSS) as 3 páginas do seu site, para responder ao ponto 1. Garanta que estrutura convenientemente os ficheiros HTML e CSS: os ficheiros HTML devem ter nomes simples (tudo em minúsculas e sem acentos nem caracteres especiais como símbolos). Os ficheiros HTML devem ser colocados na raíz da pasta do projecto. 
-Os ficheiros CSS devem ser colocados numa sub-pasta chamada “css” no seu projecto. Decida quantos ficheiros CSS precisa: se existirem estilos que apenas são necessários para uma das páginas, pode fazer sentido colocar esses estilos num ficheiro CSS separado. 
-
-Para responder ao ponto 4 valide o HTML (https://validator.w3.org/) e CSS ( https://jigsaw.w3.org/css-validator/).
-
-Para responder ao ponto 2., garanta que o seu site tem conteúdos de media (pelo menos imagens e vídeo) e que estes conteúdos estão adaptados às necessidades - se uma imagem é mostrada no site com 300 x 200 píxeis não faz sentido ter no seu projecto uma imagem de 3000 x 2000 píxeis: use um editor de imagem para redimensionar. Da mesma forma, pense em qual o formato de imagem mais adequado à imagem / qualidade que pretende. No caso dos vídeos, considere ainda a possibilidade de os codificar usando codecs diferentes de forma a suportar o maior número de browsers possível. Atenção: as imagens e vídeos não têm de ser criadas por si, pode usar imagens e vídeos descarregadas da Web.
- 
-Para responder ao ponto 3., aplique o conhecimento sobre media queries e imagens responsivas e adapte o seu site tornando-o responsivo de forma a se adaptar a dispositivos móveis.
-
-Nesta entrega, o projecto NÃO pode conter JavaScript absolutamente nenhum!
-
-# Meta 3 - JavaScript + PHP
-Nesta terceira meta pretende-se que incorpore no seu site:
-1. pelo menos um componente interactivos programado com JavaScript,
-2. pelo menos um componente com elementos HTML criados dinamicamente com base em informação externa,
-3. pelo menos um formulário cuja informação seja gravada no servidor (PHP),
-4. uma página dinâmica em PHP de administração para visualizar os dados gravados,
-5. código JavaScript e PHP bem organizado e correcto,
-6. código JavaScript e PHP totalmente da autoria do aluno
-
-
-
-*Todo o código deve ser escrito pelo aluno! 
-Não é permitida a utilização de bibliotecas. 
-Não é permitida a utilização de código que não seja da autoria do aluno, excepto se aprovado pelo docente. 
-Ver secção Fraude e Plágio.*
-
-Para responder ao ponto 1., acrescente um componentes interactivos no seu site, modificando algum já existente ou adicionando. Os componentes a inserir devem ser discutidos com o docente. Alguns exemplos genéricos:
-- Painel de navegação escondido/mostrado através de clique num botão
-- Imagens exibidas em estilo slideshow
-- Painéis com informação adicional que expandem/contraem quando clicados (acordeão)
-- Painéis “flip”
-- Vídeo/Áudio iniciado/pausado automaticamente com base na visibilidade do elemento
-Não se pretende a criação de elementos com muita lógica computacional, o objectivo principal é demonstrar domínio das funções JavaScript de manipulação do DOM.
-
-Para responder ao ponto 2., acrescente um componente com elementos HTML criados dinamicamente através de JavaScript com base em informação (JSON) externa. Esta informação externa deverá ser preferencialmente extraída de um serviço Web ou baseada num ficheiro JSON colocado no servidor. Devem demonstrar domínio sobre a criação dinâmica de elementos HTML complexos (contentores com vários tipos de elementos no interior). Discuta com o docente este componente.
-
-Para responder aos pontos 3. e 4. analise e adapte os vários exemplos de PHP mostrados durante as aulas.
-
-Para responder ao ponto 5., garanta que o seu código está bem estruturado em ficheiros. Garanta que os ficheiros apenas são incluídos nas páginas que necessitam desse código. Garanta que o código não produz erros na consola JavaScript. Garanta que o código não produz erros durante a visualização das páginas.
-
-Para responder ao ponto 6., garanta que não usa código copiado da Web, nem facultado por colegas.
+Se tiver dúvidas sobre organização de ficheiros, estrutura CSS ou desenvolvimento de páginas responsivas, pode começar por consultar a referência do MDN e aplicar os princípios de forma simples e consistente.
