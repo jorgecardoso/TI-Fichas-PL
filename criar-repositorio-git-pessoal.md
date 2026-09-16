@@ -67,6 +67,13 @@ Durante a criação do projeto:
 - mantém o projeto como **Private**, salvo indicação em contrário do docente;
 - não cries automaticamente ficheiros como `README`, `.gitignore` ou `LICENSE`, porque este projeto já contém esses ficheiros.
 
+É importante não selecionar a opção para criar um `README.md`. Se o GitLab criar esse ficheiro, fará também um commit inicial no repositório remoto. Como esse commit não existe no teu repositório local, o primeiro `push` poderá ser rejeitado com um erro `non-fast-forward`.
+
+Se criaste o repositório com um `README.md` por engano, tens duas opções:
+
+- apagar o projeto no GitLab e criar outro projeto vazio;
+- manter o projeto e integrar primeiro o commit remoto, como explicado mais à frente.
+
 Depois de criares o projeto, o GitLab mostra-te o endereço do repositório.
 
 Deves preferir o endereço SSH, com formato semelhante a:
@@ -128,6 +135,30 @@ upstream  git@git.dei.uc.pt:docente/TI-Fichas-PL.git (push)
 O `upstream` fica reservado para o repositório original das fichas.
 
 Isto é útil porque, se o docente fizer alterações ou correções às fichas, poderás ir buscá-las mais tarde.
+
+## 4.1. Completar o histórico do repositório
+
+Se seguiste o tutorial de configuração e usaste o comando `git clone --depth 1`, o teu repositório local tem apenas uma parte do histórico. Esse tipo de repositório chama-se **shallow repository** e pode causar um erro ao fazer o primeiro `push`.
+
+Confirma se o repositório é shallow:
+
+```bash
+git rev-parse --is-shallow-repository
+```
+
+Se o resultado for:
+
+```text
+true
+```
+
+completa o histórico a partir do repositório original:
+
+```bash
+git fetch --unshallow upstream
+```
+
+Se o resultado for `false`, não precisas de executar este comando.
 
 ## 4. Adicionar o teu repositório pessoal como origin
 
@@ -376,9 +407,42 @@ git commit --allow-empty -m "Inicia repositório pessoal das fichas"
 
 Este commit não altera ficheiros, mas fica registado no histórico como o teu primeiro commit pessoal.
 
+Se anteriormente usaste `git clone --depth 1` e ainda não completaste o histórico, executa agora:
+
+```bash
+git fetch --unshallow upstream
+```
+
 ## 11. Enviar o projeto para o teu repositório pessoal
 
 Agora envia o projeto para o teu repositório pessoal no GitLab.
+
+### Se o repositório remoto já tiver um README
+
+Se o GitLab já tiver criado um `README.md`, o primeiro `push` pode ser rejeitado porque o repositório remoto já tem um commit que não existe localmente. Nesse caso, obtém e integra primeiro esse commit.
+
+Se o ramo remoto se chamar `main`, usa:
+
+```bash
+git fetch origin
+git merge origin/main --allow-unrelated-histories
+```
+
+Se o ramo remoto se chamar `master`, usa:
+
+```bash
+git fetch origin
+git merge origin/master --allow-unrelated-histories
+```
+
+Se aparecer um conflito no `README.md`, resolve-o, guarda o ficheiro e termina o merge:
+
+```bash
+git add README.md
+git commit -m "Integra README inicial do GitLab"
+```
+
+Depois continua com o `push` indicado abaixo.
 
 Se o teu ramo se chamar `main`, usa:
 
@@ -544,6 +608,12 @@ Configurar nome e email:
 ```bash
 git config --global user.name "O Teu Nome"
 git config --global user.email "teu-email@dei.uc.pt"
+```
+
+Se usaste `git clone --depth 1`, completar o histórico:
+
+```bash
+git fetch --unshallow upstream
 ```
 
 Fazer primeiro commit pessoal:
