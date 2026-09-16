@@ -19,8 +19,24 @@ A funcionalidade do VSCode pode ser estendida através de _Extensões_. Nesta un
 ## 3. Instalar a extensão IAEdu
 Repita os passos anteriores e instale a extensão _IAEdu_
 
+## 4. Caso use um portátil com sistema Windows
+Se usar o Windows, pode ser necessário instalar primeiro o GIT antes dos passos seguintes.
 
-## 4. Criar repositório local com as fichas de laboratório
+Para verificar se já tem o GIT:
+1. Abrir o terminal do VSCode (`Terminal -> New Terminal`)
+2. Na janela escreva o command 
+```bash
+git --version
+```
+Se aparecer uma linha semelhante a `git version 2.33.0.windows.2`, já tem o GIT instalado e pode passar ao passo #5.
+
+Caso contrário:
+1. Aceda a `https://git-scm.com/install/windows`
+2. Escolha a opção "Click here to download"
+3. Descarregue e instale o GIT com as opções _default_
+4. Feche e volte a abrir o VSCode
+
+## 5. Criar repositório local com as fichas de laboratório
 1. Escolha ou crie no seu computador uma pasta __dentro da qual__ se irá colocar a pasta das fichas e projeto de Tecnologias da Internet
     * __Nota:__ O caminho completo desta pasta não deverá ter caracters acentuados, cedilhas, nem espaços (idealmente)
 2. Abra essa pasta com o VSCode (`File -> Open Folder`).
