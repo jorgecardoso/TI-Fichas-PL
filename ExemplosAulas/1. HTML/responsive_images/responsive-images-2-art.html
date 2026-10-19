@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Responsive Images</title>
+    <style>
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+<body>
+
+    <picture>
+     <source media="(max-width: 800px)" 
+             srcset="../images/landscape-nature-man-person-close.jpg">
+      
+     <source media="(min-width: 800px)" 
+             srcset="../images/landscape-nature-man-person.jpg">
+      
+     <img src="" alt="Man in landscape playing guitar">
+    </picture>
+
+<!--
+    <img src="/images/landscape-nature-man-person.jpg" alt="Man in landscape playing guitar">-->
+
+  </body>
+</html>

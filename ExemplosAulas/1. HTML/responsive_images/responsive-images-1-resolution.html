@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Responsive Images</title>
+  </head>
+  <body>
+    <!--
+<div>
+<img src="/images/girlwithbunny-600w.jpg" alt="Girl with bunny">
+<img src="/images/girlwithbunny-600w.jpg" alt="Girl with bunny">
+<img src="/images/girlwithbunny-600w.jpg" alt="Girl with bunny">
+<img src="/images/girlwithbunny-600w.jpg" alt="Girl with bunny">
+</div>
+-->
+
+<div>
+<img srcset="../images/girlwithbunny-1-320w.jpg 320w,
+             ../images/girlwithbunny-1-480w.jpg 480w,
+             ../images/girlwithbunny-1-600w.jpg 600w,
+	 		        ../images/girlwithbunny-1-960w.jpg 960w"
+	 
+     sizes="100vw"
+	 
+     src="../images/girlwithbunny-1-600w.jpg" alt="Girl with bunny">
+
+<img srcset="../images/girlwithbunny-320w.jpg 320w,
+             ../images/girlwithbunny-480w.jpg 480w,
+             ../images/girlwithbunny-600w.jpg 600w,
+	 		        ../images/girlwithbunny-960w.jpg 960w"
+	 
+     sizes="100vw"
+     src="../images/girlwithbunny-600w.jpg" alt="Girl with bunny">	
+</div>
+
+  </body>
+</html>

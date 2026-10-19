@@ -1,0 +1,13 @@
+h1,h2 {
+  background-color: orange;
+}
+
+.superimportant {
+  border: 1px solid red;  
+}
+
+
+p.superimportant {
+  background-color: yellow;
+  font-weight: bold;
+}

@@ -1,0 +1,41 @@
+html,body {
+  margin:0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  width: 100%;
+}
+
+ul>li {
+  display: inline;
+}
+
+
+
+ul>li>a{
+  line-height: 3em;
+  background-color: #996633;
+  display: inline-block;
+  margin-right: 6.6666%;
+  width: 20%;
+  padding:0;
+  text-align: center;
+  color: black;
+  text-decoration:none;
+}
+
+ul>li:last-child a {
+  margin-right: 0;
+}
+
+ul>li>a:hover {
+  background-color: #c68c53;
+}
+
+ul>li>a:active {
+  background-color: #ff8c66;
+}

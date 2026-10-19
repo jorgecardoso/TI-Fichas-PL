@@ -1,0 +1,29 @@
+body {
+	background-color: lightgreen;
+}
+.sq {
+	float: left;
+	width: 100px;
+	height: 100px;
+	outline: 1px dashed black; /* keyword color */
+}
+
+.sq:nth-child(1) {
+	background-color: red;
+}
+
+.sq:nth-child(2) {
+	background-color: #E74C3C;
+}
+.sq:nth-child(3) {
+	background-color: rgb(175, 122, 197);
+}
+.sq:nth-child(4) {
+	background-color: rgb(175, 122, 197, 80%);
+}
+.sq:nth-child(5) {
+	background-color: hsl(300deg, 100%, 50%);
+}
+.sq:nth-child(6) {
+	background-color: hsl(204deg, 51%, 55%, 0.5);
+}

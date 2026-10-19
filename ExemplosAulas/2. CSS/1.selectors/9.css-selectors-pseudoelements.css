@@ -1,0 +1,22 @@
+
+p::first-letter {
+  font-size: 2em;
+}
+
+p::first-line {
+  background-color: salmon;
+}
+
+p::selection {
+  color: red;
+  background-color: green;
+}
+
+p::before {
+  content: '✋';
+  
+}
+
+p::after {
+  content: '👏';
+}

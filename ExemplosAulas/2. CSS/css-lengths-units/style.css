@@ -1,0 +1,26 @@
+html {
+    font-size: 8px;
+}
+
+header {
+    background-color: #f2f2f2;
+    height: 300px;
+    font-size: 4rem;
+}
+
+h1 {
+    font-size: 2em;
+    display: inline-block;
+    margin: 0;
+}
+
+header img {
+    height: 8rem;
+    /*width: 50%;*/
+    /*object-fit: none;*/
+}
+
+
+.teste {
+    background-color:red;
+}

@@ -1,0 +1,32 @@
+form input:hover {
+  outline: 1px solid red;
+  
+}
+
+form input:active {
+  outline: 5px solid red;
+}
+
+form input:focus {
+  background-color: orangered;
+}
+
+form option:first-child {
+  background-color: red;
+}
+
+form option:last-child {
+  background-color: blue;
+}
+
+form option:nth-child(2) {
+  background-color:green;
+}
+
+table tr:nth-child(2n) {
+  background-color: lightgray;
+}
+
+table tr:nth-child(2n+1) {
+  background-color: darkgray;
+}

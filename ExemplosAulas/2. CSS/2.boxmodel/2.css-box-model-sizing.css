@@ -1,0 +1,11 @@
+div {
+  border: 10px solid black;
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+#one {
+  box-sizing: border-box;
+}

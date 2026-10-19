@@ -1,0 +1,15 @@
+form [required] {
+  outline: 1px solid red;
+}
+
+form [type="number"] {
+  background-color: salmon;
+}
+
+form select [value~=dog] {
+  background-color:orange;
+}
+
+form select [value~=cat] {
+  background-color: orangered;
+}

@@ -1,0 +1,81 @@
+div.runner {
+  position: fixed;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  
+  animation-name: position;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+
+  top:0px;
+  left:0px;
+}
+
+div.runner.one {
+  animation-delay: 0s;
+  animation-name: position, rotation;
+  animation-duration: 4s;
+	animation-iteration-count: 1;
+}
+div.runner.two {
+  animation-delay: 1s;
+}
+div.runner.three {
+  animation-delay: 2s;
+}
+div.runner.four {
+  animation-delay: 3s;
+}
+
+@keyframes position {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+
+  25% {
+    top: 0px;
+    left: calc(100% - 100px);
+  }
+
+  50% {
+    top: calc(100% - 100px);
+    left: calc(100% - 100px);
+  }
+
+  75%{
+    left: 0px;
+    top: calc(100% - 100px);
+  }
+  
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-360deg);
+  }
+
+  50% {
+    transform: rotate(-720deg);
+  }
+
+  75%{
+    transform: rotate(-1080deg);
+  }
+  
+  100% {
+    transform: rotate(-1440deg);
+  }
+}

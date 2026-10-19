@@ -1,0 +1,35 @@
+div {
+	width: calc(100% - 100px); /* space around '-', '+' is important */ 
+	height: calc(100vh - 100px);	
+	margin: 50px 50px;
+	
+	border: 5px dashed lightsalmon;
+	line-height: calc(100vh - 100px);
+	text-align: center;
+	font-size: calc(16px + 10vmin);
+	background-color: #9d7ff0;
+	
+	animation-name: fadein;
+	animation-duration: 10s;
+	animation-delay: 0s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+  animation-direction: forwards;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+		font-size: 0;
+	}
+
+	50% {
+		opacity: 1;
+		font-size: 0;
+	}
+	
+	100% {
+		background-color: lightcoral;
+		font-size: calc(16px + 10vmin);
+	}
+}

@@ -1,0 +1,70 @@
+body {
+  font-size: 24px;
+}
+
+span {
+  outline: 1px solid black;
+}
+
+#lorem {
+  font-size: 50px;
+}
+
+#ipsum {
+  font-size: 44px;
+}
+
+#dolor {
+  font-size: 58px;
+}
+
+#sit {
+  font-size: 52px;
+}
+
+#amet {
+  font-size: 46px;
+}
+
+p {
+  position: relative;
+  width:600px;
+  height: 400px;
+  outline: 1px solid black;
+}
+
+#lorem {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #fa807290;
+}
+
+#ipsum {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color:  #fa807290;;
+}
+
+#dolor {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-color:  #fa807290;;
+}
+
+
+#sit {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background-color:  #fa807290;;
+}
+
+#amet {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color:  #fa807290;;
+}

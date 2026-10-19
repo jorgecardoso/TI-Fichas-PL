@@ -1,0 +1,13 @@
+body {
+  font-size: 20pt;
+}
+
+div {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+p {
+  /* border: inherit; */
+  /* font-size: initial; */
+}

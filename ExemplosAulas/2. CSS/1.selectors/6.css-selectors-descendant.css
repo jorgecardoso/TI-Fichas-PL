@@ -1,0 +1,43 @@
+html {
+  font-size: 24px;
+}
+
+
+/* 
+space: descendent selector 
+*/
+/* list items inside header with different background color then list items inside main*/
+
+header li {
+  background-color: #81f971;
+}
+
+header li {
+  background-color: salmon;
+}
+
+
+
+main li {
+  background-color:lightgreen;
+}
+
+/*
+>: direct descendent
+*/
+/*
+ inner list items with different border
+*/
+
+ul>li>ol>li {
+  border: 1px solid red;
+}
+
+
+header .important {
+  background-color: red;
+}
+
+main .important {
+  background-color: yellow;
+}
