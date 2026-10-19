@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms 8 - Eventos em formulários</title>
+  <link rel="stylesheet" href="forms-8-js-events.css">
+  <script src="forms-8-js-events.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>Ouvir alterações num formulário</h1>
+
+    <form class="formulario" id="formularioPerfil">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" placeholder="Escreve o teu nome">
+
+      <label for="cor">Cor favorita</label>
+      <select id="cor" name="cor">
+        <option value="">Escolhe uma cor</option>
+        <option value="red">Vermelho</option>
+        <option value="green">Verde</option>
+        <option value="blue">Azul</option>
+      </select>
+
+      <label>
+        <input type="checkbox" id="newsletter" name="newsletter">
+        Quero receber novidades
+      </label>
+    </form>
+
+    <section class="painel">
+      <h2>Resultado</h2>
+      <p id="resultado">Ainda não alteraste nenhum campo.</p>
+    </section>
+  </main>
+</body>
+</html>
