@@ -52,3 +52,15 @@ main {
   border-left: 4px solid #3366cc;
   background-color: #f0f4ff;
 }
+
+#resultado.resultado-vermelho {
+  border-left-color: red;
+}
+
+#resultado.resultado-verde {
+  border-left-color: green;
+}
+
+#resultado.resultado-azul {
+  border-left-color: blue;
+}

@@ -40,12 +40,14 @@ formulario.addEventListener("submit", function (event) {
     marcarSucesso(curso);
   }
 
+  mensagem.classList.remove("mensagem-erro", "mensagem-sucesso");
+
   if (valido) {
     mensagem.textContent = "Inscrição enviada com sucesso!";
-    mensagem.style.color = "green";
+    mensagem.classList.add("mensagem-sucesso");
   } else {
     mensagem.textContent = "Por favor, preenche corretamente todos os campos.";
-    mensagem.style.color = "crimson";
+    mensagem.classList.add("mensagem-erro");
   }
 });
 

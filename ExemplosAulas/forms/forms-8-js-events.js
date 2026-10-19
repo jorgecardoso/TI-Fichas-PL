@@ -13,7 +13,19 @@ nomeInput.addEventListener("change", function () {
 
 corSelect.addEventListener("change", function () {
   resultado.textContent = "Cor escolhida: " + corSelect.value;
-  resultado.style.borderLeftColor = corSelect.value || "#3366cc";
+  resultado.classList.remove(
+    "resultado-vermelho",
+    "resultado-verde",
+    "resultado-azul"
+  );
+
+  if (corSelect.value === "red") {
+    resultado.classList.add("resultado-vermelho");
+  } else if (corSelect.value === "green") {
+    resultado.classList.add("resultado-verde");
+  } else if (corSelect.value === "blue") {
+    resultado.classList.add("resultado-azul");
+  }
 });
 
 newsletterCheckbox.addEventListener("change", function () {
