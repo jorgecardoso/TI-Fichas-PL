@@ -1,0 +1,31 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  color: #1f2937;
+  background: #f8fafc;
+}
+
+header {
+  max-width: 760px;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin-bottom: .5rem;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.card {
+  padding: 24px;
+  background: #dbeafe;
+  border: 1px solid #60a5fa;
+  border-radius: 8px;
+}
