@@ -1,0 +1,21 @@
+
+body {
+  margin: 2rem auto;
+  max-width: 760px;
+  padding: 0 1rem;
+  font-family: system-ui, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 100px;
+  gap: 8px;
+}
+
+
+.item {
+  background: #d8eaff;
+  border: 2px solid #3478b9;
+  font-weight: 700;
+}

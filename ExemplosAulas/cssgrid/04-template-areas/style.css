@@ -1,0 +1,46 @@
+
+body {
+  margin: 2rem auto;
+  max-width: 760px;
+  padding: 0 1rem;
+  font-family: system-ui, sans-serif;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 80px minmax(150px, auto) 70px;
+  grid-template-areas:
+    "header header header"
+    "menu   main   aside "
+    "footer footer footer";
+  gap: 8px;
+}
+
+.area {
+
+  padding: 0.75rem;
+  background: #f0e5ff;
+  border: 2px solid #7951a8;
+  text-align: center;
+}
+
+.header {
+  grid-area: header;
+}
+
+.menu {
+  grid-area: menu;
+}
+
+.main {
+  grid-area: main;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.footer {
+  grid-area: footer;
+}

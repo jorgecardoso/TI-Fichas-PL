@@ -1,0 +1,51 @@
+
+
+body {
+  margin: 2rem auto;
+  max-width: 1000px;
+  padding: 0 1rem;
+  font-family: system-ui, sans-serif;
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 1rem;
+}
+
+.person {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+ 
+  overflow: hidden;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.75rem;
+  background: #f8fafc;
+}
+
+.person img {
+  display: block;
+  width: 100%;
+ 
+}
+
+.person-name {
+  padding: 0.75rem 0.75rem 0.25rem;
+  font-weight: 700;
+}
+
+.person-title {
+  padding: 0 0.75rem 0.75rem;
+  color: #475569;
+}
+
+
+.person.highlight {
+  border: 4px solid #f9a8d4;
+  background-color: #fec7da;
+  grid-column: span 2;
+  grid-row: span 2;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+body {
+  margin: 2rem auto;
+  max-width: 760px;
+  padding: 0 1rem;
+  font-family: system-ui, sans-serif;
+}
+
+.grid {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 2rem;
+}
+
+.mixed {
+  grid-template-columns: 120px 1fr 2fr;
+  grid-template-rows: 80px auto;
+}
+
+.repeat {
+  grid-template-columns: repeat(3, minmax(100px, 200px));
+  grid-template-rows: repeat(2, minmax(10px, auto));
+}
+
+.item {
+ 
+  min-height: 60px;
+  padding: 0.5rem;
+  background: #e4f4df;
+  border: 2px solid #4d9140;
+  text-align: center;
+}

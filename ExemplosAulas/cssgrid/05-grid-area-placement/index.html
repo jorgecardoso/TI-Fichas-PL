@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Grid 05: Posicionar com grid-area</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>05: Posicionar itens com grid-area</h1>
+  <p>Depois de definir um mapa com <code>grid-template-areas</code>, atribui-se o nome da área ao item com <code>grid-area: nome</code>.</p>
+
+  <div class="grid named-grid">
+    <div class="item banner">Banner</div>
+    <div class="item main">Conteúdo</div>
+    <div class="item side">Lateral</div>
+  </div>
+
+  <p>Em alternativa, <code>grid-area</code> aceita quatro linhas, na ordem linha inicial / coluna inicial / linha final / coluna final. <code>span</code> pode indicar quantas tracks o item ocupa.</p>
+  <div class="grid">
+    <div class="item two-columns">Duas colunas — <code>1 / 1 / 2 / 3</code></div>
+    <div class="item spanning">Duas linhas — <code>1 / 3 / span 2 / 4</code></div>
+    <div class="item">Posicionado automaticamente</div>
+  </div>
+</body>
+</html>

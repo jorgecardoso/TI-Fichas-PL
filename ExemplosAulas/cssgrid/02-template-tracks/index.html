@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Grid 02: Dimensionar pistas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>02: Alternativas para dimensionar pistas (tracks)</h1>
+  <p>Uma track pode ter um tamanho fixo, como <code>120px</code>, ou flexível, como <code>1fr</code>. A unidade <code>fr</code> distribui o espaço disponível: nesta primeira grelha, a terceira coluna recebe o dobro do espaço da segunda. <code>auto</code> adapta-se ao conteúdo.</p>
+  <div class="grid mixed">
+    <div class="item">120px</div>
+    <div class="item">1fr</div>
+    <div class="item">2fr</div>
+    <div class="item">Linha 2</div>
+    <div class="item">Altura automática</div>
+    <div class="item">Conteúdo</div>
+  </div>
+
+  <p><code>repeat()</code> evita repetir a mesma definição. <code>minmax()</code> define um mínimo e um máximo para cada track.</p>
+  <div class="grid repeat">
+    <div class="item">Coluna 1</div>
+    <div class="item">Coluna 2</div>
+    <div class="item">Coluna 3</div>
+    <div class="item">Mínimo: 80px</div>
+    <div class="item">Altura cresce com o conteúdo</div>
+    <div class="item">repeat(2, ...)</div>
+  </div>
+</body>
+</html>

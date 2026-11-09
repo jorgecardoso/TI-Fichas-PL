@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Grid 06 — Tracks automáticas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>06 — Tracks automáticas</h1>
+  <p>Quando os itens não cabem nas tracks explícitas, o Grid cria tracks implícitas. <code>grid-auto-rows</code> controla a altura dessas linhas. Aqui só há uma linha explícita, mas os restantes itens criam linhas de 60px.</p>
+  <div class="grid rows">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+  </div>
+
+  <p><code>grid-auto-flow: column</code> faz a colocação automática avançar por colunas. As colunas implícitas passam a ter a largura definida por <code>grid-auto-columns</code>.</p>
+  <div class="grid columns">
+    <div class="item">Coluna 1</div>
+    <div class="item">Coluna 2</div>
+    <div class="item">Coluna 3</div>
+    <div class="item">Coluna 4</div>
+    <div class="item">Coluna 5</div>
+    <div class="item">Coluna 6</div>
+  </div>
+</body>
+</html>
