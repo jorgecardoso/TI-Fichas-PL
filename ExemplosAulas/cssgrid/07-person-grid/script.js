@@ -1,8 +1,8 @@
 let persons = [
-  { image: "images/person-01.svg", name: "Ana Martins", title: "Designer", empregadodomes: true },
+  { image: "images/person-01.svg", name: "Ana Martins", title: "Designer", empregadodomes: false },
   { image: "images/person-02.svg", name: "Bruno Costa", title: "Programador" },
   { image: "images/person-03.svg", name: "Carla Sousa", title: "Professora" },
-  { image: "images/person-04.svg", name: "Diogo Alves", title: "Fotógrafo" },
+  { image: "images/person-04.svg", name: "Diogo Alves", title: "Fotógrafo", empregadodomes: true },
   { image: "images/person-05.svg", name: "Eva Ferreira", title: "Investigadora" },
   { image: "images/person-06.svg", name: "Filipe Rocha", title: "Arquiteto" },
   { image: "images/person-07.svg", name: "Inês Lopes", title: "Ilustradora" },
