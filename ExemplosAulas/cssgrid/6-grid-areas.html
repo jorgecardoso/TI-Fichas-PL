@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CSS Grid Areas</title>
+
+    <style>
+      .container {
+        display: grid; /*inline-grid*/
+        grid-template-columns: auto auto 250px;
+        grid-template-rows: 150px 1fr 100px;
+        grid-template-areas: 
+          "header header header"
+          "main   main   sidebar"
+          "footer footer footer";
+
+        height: 400px;
+      }
+      .item {
+        outline: 1px solid black;
+      }
+      .header {
+        grid-area: header;
+      }
+      .main {
+        grid-area: main;
+      }
+      .sidebar {
+        grid-area: sidebar;
+      }
+      .footer {
+        /* alternativa aos nomes: row-start / col-start / row-end / col-end*/
+        grid-area: 3 / 1 / 4 / 4;
+      }
+    </style>
+  </head>
+  <body>
+    Something before
+
+<div class="container">
+  <div class="item header">Header</div>
+  <div class="item main">Main</div>
+  <div class="item sidebar">Sidebar</div>
+  <div class="item footer">Footer</div>
+  
+</div>
+
+  Something after
+  </body>
+</html>

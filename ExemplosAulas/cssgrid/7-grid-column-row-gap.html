@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CSS Grid Columns and Row Gap</title>
+
+    <style>
+      .container {
+        display: grid; /*inline-grid*/
+        grid-template-columns: 140px auto 150px;
+        grid-template-rows: 1fr 1fr;
+        
+        grid-column-gap: 10px;
+        grid-row-gap: 20px;
+        /* grid-gap: 20px 10px; */
+
+        height: 400px;
+      }
+
+      .item {
+        outline: 1px solid black;
+      }
+
+    </style>
+  </head>
+  <body>
+
+<div class="container">
+  <div class="item">One</div>
+  <div class="item">Two</div>
+  <div class="item">Three</div>
+  <div class="item">Four</div>
+  <div class="item">Five</div>
+  <div class="item">Six</div>
+</div>
+
+  </body>
+</html>
