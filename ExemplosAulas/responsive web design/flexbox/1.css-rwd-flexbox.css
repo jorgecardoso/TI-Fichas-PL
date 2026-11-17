@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header,
+.content,
+.footers {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.logo {
+  flex: 3;
+  background-color: lightblue;
+}
+.banner {
+  flex: 9;
+  background-color: lightblue;
+}
+.menu {
+  width: 66.666%;
+  margin-inline: auto;
+  background-color: #33cc33;
+}
+.sidebar.one {
+  flex: 2;
+  background-color: #ff9933;
+}
+.main {
+  flex: 8;
+  background-color: #ff9933;
+}
+.sidebar.two {
+  flex: 2;
+  background-color: #ff9933;
+}
+
+.footer.one {
+  flex: 1;
+  background-color: #cc3399;
+}
+.footer.two {
+  flex: 1;
+  background-color: #cc3399;
+}
+.footer.three {
+  flex: 1;
+  background-color: #cc3399;
+}
+

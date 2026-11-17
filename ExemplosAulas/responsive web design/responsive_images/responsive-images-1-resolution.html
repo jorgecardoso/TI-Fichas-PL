@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Images</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="hero">
+    <!-- <figure class="hero-example">
+      <img src="images/girlwithbunny-1-960w.jpg" width="960" alt="Girl with bunny">
+    </figure> -->
+
+    <figure class="hero-example">
+      <img srcset="images/girlwithbunny-1-320w.jpg 320w,
+                   images/girlwithbunny-1-480w.jpg 480w,
+                   images/girlwithbunny-1-600w.jpg 600w,
+                   images/girlwithbunny-1-960w.jpg 960w" sizes="100vw"
+           src="images/girlwithbunny-1-600w.jpg" alt="Girl with bunny">
+    </figure>
+  </header>
+
+  <main>
+    
+<!--     <div class="container">
+      <img 
+           src="images/girlwithbunny-960w.jpg" alt="Girl with bunny">
+
+      <img 
+           src="images/girlwithbunny-960w.jpg" alt="Girl with bunny">
+      <img 
+           src="images/girlwithbunny-960w.jpg" alt="Girl with bunny">
+      <img 
+           src="images/girlwithbunny-960w.jpg" alt="Girl with bunny">
+      <img 
+           src="images/girlwithbunny-960w.jpg" alt="Girl with bunny">
+    </div> -->
+
+
+    <div class="container">
+      <img srcset="images/girlwithbunny-320w.jpg 320w,
+                  images/girlwithbunny-600w.jpg 600w,
+                   images/girlwithbunny-960w.jpg 960w" sizes="(width <= 768px) 100vw, 250px"
+           src="images/girlwithbunny-960w.jpg" alt="Girl with bunny">
+
+      <img srcset="images/girlwithbunny-320w.jpg 320w,
+                    images/girlwithbunny-600w.jpg 600w,
+                   images/girlwithbunny-960w.jpg 960w" sizes="(width <= 768px) 100vw, 250px"
+           src="images/girlwithbunny-960w.jpg" alt="Girl with bunny">
+      <img srcset="images/girlwithbunny-320w.jpg 320w,
+                    images/girlwithbunny-600w.jpg 600w,
+                   images/girlwithbunny-960w.jpg 960w" sizes="(width <= 768px) 100vw, 250px"
+           src="images/girlwithbunny-960w.jpg" alt="Girl with bunny">
+      <img srcset="images/girlwithbunny-320w.jpg 320w,
+                    images/girlwithbunny-600w.jpg 600w,
+                   images/girlwithbunny-960w.jpg 960w" sizes="(width <= 768px) 100vw, 250px"
+           src="images/girlwithbunny-960w.jpg" alt="Girl with bunny">
+      <img srcset="images/girlwithbunny-320w.jpg 320w,
+                    images/girlwithbunny-600w.jpg 600w,
+                   images/girlwithbunny-960w.jpg 960w" sizes="(width <= 768px) 100vw, 250px"
+           src="images/girlwithbunny-960w.jpg" alt="Girl with bunny">
+    </div>
+  </main>
+</body>
+
+</html>
