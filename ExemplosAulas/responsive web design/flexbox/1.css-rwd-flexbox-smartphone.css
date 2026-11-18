@@ -1,9 +1,15 @@
 
 @media (width <= 576px) {
-  .content {
+  .header {
     flex-direction: column;
+        flex-direction: column;
+    gap: 0;
   }
 
+  .logo,.banner {
+    flex: none;
+    width: 100%
+  }
   .main {
     order: 1;
     flex: none;
